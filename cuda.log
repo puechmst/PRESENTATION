@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.23)  11 OCT 2023 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.23)  11 OCT 2023 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -622,7 +622,14 @@ Package caption Info: Hyperref support is turned off
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box81
-) (./cuda.aux)
+) (./cuda.aux
+
+LaTeX Warning: Label `fig:ati_rage' multiply defined.
+
+
+LaTeX Warning: Label `fig:ati_rage' multiply defined.
+
+)
 \openout1 = `cuda.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -774,21 +781,21 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [2
 
- <./images/Bloc_marque_RF_ENAC_V1.png>]
+ <./images/Bloc_marque_RF_ENAC_V1.png>] (./history.tex
 <images//Motorola_MC6845.jpg, id=78, 162.1257pt x 59.2614pt>
 File: images//Motorola_MC6845.jpg Graphic file (type jpg)
 <use images//Motorola_MC6845.jpg>
-Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 58.
+Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 16.
 (pdftex.def)             Requested size: 81.06265pt x 29.63062pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 58.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
@@ -799,22 +806,57 @@ Missing character: There is no ; in font nullfont!
 <images//ATI16800.jpg, id=108, 201.75375pt x 200.75pt>
 File: images//ATI16800.jpg Graphic file (type jpg)
 <use images//ATI16800.jpg>
-Package pdftex.def Info: images//ATI16800.jpg  used on input line 80.
+Package pdftex.def Info: images//ATI16800.jpg  used on input line 38.
 (pdftex.def)             Requested size: 90.78835pt x 90.33665pt.
 <images//ATI16899.jpg, id=109, 256.96pt x 200.75pt>
 File: images//ATI16899.jpg Graphic file (type jpg)
 <use images//ATI16899.jpg>
-Package pdftex.def Info: images//ATI16899.jpg  used on input line 80.
+Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
 (pdftex.def)             Requested size: 115.63092pt x 90.33665pt.
 
 Missing character: There is no ; in font nullfont!
 [4
 
  <./images//ATI16800.jpg> <./images//ATI16899.jpg>]
+<images//3drage.jpg, id=137, 337.26pt x 340.27126pt>
+File: images//3drage.jpg Graphic file (type jpg)
+<use images//3drage.jpg>
+Package pdftex.def Info: images//3drage.jpg  used on input line 54.
+(pdftex.def)             Requested size: 67.45079pt x 68.05304pt.
+
 Missing character: There is no ; in font nullfont!
 [5
 
-]
+ <./images//3drage.jpg>]
+<images//Geforce3gpu.jpg, id=164, 441.65pt x 312.16624pt>
+File: images//Geforce3gpu.jpg Graphic file (type jpg)
+<use images//Geforce3gpu.jpg>
+Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 69.
+(pdftex.def)             Requested size: 132.49602pt x 93.65059pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:ati_rage}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \end{frame}
+                
+Missing character: There is no ; in font nullfont!
+[6
+
+ <./images//Geforce3gpu.jpg>]
+File: images//Geforce3gpu.jpg Graphic file (type jpg)
+<use images//Geforce3gpu.jpg>
+Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 85.
+(pdftex.def)             Requested size: 132.49602pt x 93.65059pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:ati_rage}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \end{frame}
+                
+Missing character: There is no ; in font nullfont!
+[7
+
+])
 \tf@nav=\write6
 \openout6 = `cuda.nav'.
 
@@ -825,22 +867,25 @@ Missing character: There is no ; in font nullfont!
 \openout8 = `cuda.snm'.
 
  (./cuda.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `cuda.out' has not changed.
 (rerunfilecheck)             Checksum: A5DC1A9810136852C5A83276FB368560;98.
  ) 
 Here is how much of TeX's memory you used:
- 26142 strings out of 477146
- 521183 string characters out of 5813970
+ 26178 strings out of 477146
+ 521771 string characters out of 5813970
  1858330 words of memory out of 5000000
- 45828 multiletter control sequences out of 15000+600000
+ 45854 multiletter control sequences out of 15000+600000
  521972 words of font info for 67 fonts, out of 8000000 for 9000
  473 hyphenation exceptions out of 8191
  128i,14n,122p,447b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cuda.pdf (5 pages, 188879 bytes).
+Output written on cuda.pdf (7 pages, 309883 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
