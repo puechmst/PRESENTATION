@@ -1377,6 +1377,10 @@ INPUT ./images//Geforce3gpu.jpg
 INPUT ./images//Geforce3gpu.jpg
 INPUT images//Geforce3gpu.jpg
 INPUT ./images//Geforce3gpu.jpg
+INPUT ./model.tex
+INPUT model.tex
+INPUT ./model.tex
+INPUT model.tex
 OUTPUT cuda.nav
 OUTPUT cuda.toc
 OUTPUT cuda.snm

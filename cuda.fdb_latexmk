@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1697040085 "/home/stephane/Documents/ENSEIGNEMENT/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697040086 0
+["pdflatex"] 1697040886 "/home/stephane/Documents/ENSEIGNEMENT/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697040887 0
   "/etc/texmf/web2c/texmf.cnf" 1687532838 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/stephane/Documents/ENSEIGNEMENT/PRESENTATION/cuda.tex" 1697037667 1126 610447c1734805f34c0ccaaccbe540ee ""
+  "/home/stephane/Documents/ENSEIGNEMENT/PRESENTATION/cuda.tex" 1697040822 1144 9e56ab1a73a07884ba101717ff67de58 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1246382020 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -207,12 +207,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1687532978 4527516 e0cda2026e91134a0e1cebf0728051be ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1687533017 7708617 6b6e98691f3f571f8ee67c5579af65e9 ""
-  "cuda.aux" 1697040086 2818 4040febc70d4b334e256c908f10435c6 "pdflatex"
-  "cuda.nav" 1697040086 989 0a6fc849d7cd00b12261bee48a0660f0 "pdflatex"
-  "cuda.out" 1697040086 98 a5dc1a9810136852c5a83276fb368560 "pdflatex"
-  "cuda.tex" 1697037667 1126 610447c1734805f34c0ccaaccbe540ee ""
-  "cuda.toc" 1697040086 47 5d9e81cfa5e0bc75be2e466940821ed7 "pdflatex"
-  "history.tex" 1697040085 3176 9f4f9dd3e776f623d5209a7fe3c3f737 ""
+  "cuda.aux" 1697040887 3247 2d7aff5544d7c067a05607ea24b5fe3d "pdflatex"
+  "cuda.nav" 1697040887 1253 6fd1c246caa9c7c73116ecb59d2eb7ac "pdflatex"
+  "cuda.out" 1697040887 257 0cb8896af5a29f4c3076c469231f7120 "pdflatex"
+  "cuda.tex" 1697040822 1144 9e56ab1a73a07884ba101717ff67de58 ""
+  "cuda.toc" 1697040887 105 c4aec05e82c712bfa19c46fb6ab8879d "pdflatex"
+  "history.tex" 1697040731 3174 637df3ca697b06393096be54e99d3558 ""
   "images//3drage.jpg" 1697038062 63052 d5648671360fa3846b2e8657064bedc1 ""
   "images//ATI16800.jpg" 1697037082 20853 4cb7037709449ac488cd03c36c76091b ""
   "images//ATI16899.jpg" 1697037082 53927 81d362e1a71a183e52ef950c3ff0c780 ""
@@ -220,6 +220,7 @@
   "images//Motorola_MC6845.jpg" 1697037082 37051 f3d78512f214c1256336a4c14bc6fdfe ""
   "images/Bloc_marque_RF_ENAC_V1.png" 1697035514 22996 7c27f167c83738e4e1f5e70ef728a610 ""
   "images/Bloc_marque_RF_ENAC_V2.png" 1697035514 20445 14d9e14e1b935624b97a8a231245d305 ""
+  "model.tex" 1697040886 169 f94bb0f4b5de0699323899d9927f85e2 ""
   (generated)
   "cuda.aux"
   "cuda.log"

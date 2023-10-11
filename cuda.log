@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.23)  11 OCT 2023 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.6.23)  11 OCT 2023 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -622,14 +622,7 @@ Package caption Info: Hyperref support is turned off
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box81
-) (./cuda.aux
-
-LaTeX Warning: Label `fig:ati_rage' multiply defined.
-
-
-LaTeX Warning: Label `fig:ati_rage' multiply defined.
-
-)
+) (./cuda.aux)
 \openout1 = `cuda.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -782,7 +775,7 @@ Missing character: There is no ; in font nullfont!
 [2
 
  <./images/Bloc_marque_RF_ENAC_V1.png>] (./history.tex
-<images//Motorola_MC6845.jpg, id=78, 162.1257pt x 59.2614pt>
+<images//Motorola_MC6845.jpg, id=83, 162.1257pt x 59.2614pt>
 File: images//Motorola_MC6845.jpg Graphic file (type jpg)
 <use images//Motorola_MC6845.jpg>
 Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 16.
@@ -803,12 +796,12 @@ Missing character: There is no ; in font nullfont!
 [3
 
  <./images//Motorola_MC6845.jpg>]
-<images//ATI16800.jpg, id=108, 201.75375pt x 200.75pt>
+<images//ATI16800.jpg, id=114, 201.75375pt x 200.75pt>
 File: images//ATI16800.jpg Graphic file (type jpg)
 <use images//ATI16800.jpg>
 Package pdftex.def Info: images//ATI16800.jpg  used on input line 38.
 (pdftex.def)             Requested size: 90.78835pt x 90.33665pt.
-<images//ATI16899.jpg, id=109, 256.96pt x 200.75pt>
+<images//ATI16899.jpg, id=115, 256.96pt x 200.75pt>
 File: images//ATI16899.jpg Graphic file (type jpg)
 <use images//ATI16899.jpg>
 Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
@@ -818,7 +811,7 @@ Missing character: There is no ; in font nullfont!
 [4
 
  <./images//ATI16800.jpg> <./images//ATI16899.jpg>]
-<images//3drage.jpg, id=137, 337.26pt x 340.27126pt>
+<images//3drage.jpg, id=143, 337.26pt x 340.27126pt>
 File: images//3drage.jpg Graphic file (type jpg)
 <use images//3drage.jpg>
 Package pdftex.def Info: images//3drage.jpg  used on input line 54.
@@ -828,17 +821,12 @@ Missing character: There is no ; in font nullfont!
 [5
 
  <./images//3drage.jpg>]
-<images//Geforce3gpu.jpg, id=164, 441.65pt x 312.16624pt>
+<images//Geforce3gpu.jpg, id=170, 441.65pt x 312.16624pt>
 File: images//Geforce3gpu.jpg Graphic file (type jpg)
 <use images//Geforce3gpu.jpg>
 Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 69.
 (pdftex.def)             Requested size: 132.49602pt x 93.65059pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:ati_rage}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 \end{frame}
-                
 Missing character: There is no ; in font nullfont!
 [6
 
@@ -848,13 +836,12 @@ File: images//Geforce3gpu.jpg Graphic file (type jpg)
 Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 85.
 (pdftex.def)             Requested size: 132.49602pt x 93.65059pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:ati_rage}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.85 \end{frame}
-                
 Missing character: There is no ; in font nullfont!
 [7
+
+]) (./model.tex
+Missing character: There is no ; in font nullfont!
+[8
 
 ])
 \tf@nav=\write6
@@ -867,25 +854,22 @@ Missing character: There is no ; in font nullfont!
 \openout8 = `cuda.snm'.
 
  (./cuda.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `cuda.out' has not changed.
-(rerunfilecheck)             Checksum: A5DC1A9810136852C5A83276FB368560;98.
+(rerunfilecheck)             Checksum: 0CB8896AF5A29F4C3076C469231F7120;257.
  ) 
 Here is how much of TeX's memory you used:
- 26178 strings out of 477146
- 521771 string characters out of 5813970
- 1858330 words of memory out of 5000000
- 45854 multiletter control sequences out of 15000+600000
+ 26196 strings out of 477146
+ 521955 string characters out of 5813970
+ 1859330 words of memory out of 5000000
+ 45864 multiletter control sequences out of 15000+600000
  521972 words of font info for 67 fonts, out of 8000000 for 9000
  473 hyphenation exceptions out of 8191
  128i,14n,122p,447b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cuda.pdf (7 pages, 309883 bytes).
+Output written on cuda.pdf (8 pages, 312264 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
