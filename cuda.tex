@@ -1,0 +1,43 @@
+\documentclass{beamer}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usetheme{default}
+\title{Programmation CUDA.}
+\author{S. Puechmorel}
+\date{2023}
+
+\pgfdeclareimage[interpolate=true, height=0.155\paperwidth,width=\paperwidth]{bloc_enac}{images/Bloc_marque_RF_ENAC_V2.png}
+\pgfdeclareimage[interpolate=true, height=40pt]{bloc2_enac}{images/Bloc_marque_RF_ENAC_V1.png}
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+    \ifnum\thepage=1%
+  \useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight); 
+    \pgftext[at=\pgfpoint{0}{\paperheight-0.155\paperwidth},left,base]{\pgfuseimage{bloc_enac}};
+    \else
+\useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight); 
+    \pgftext[at=\pgfpoint{0}{\paperheight-40pt},left,base]{\pgfuseimage{bloc2_enac}};
+    \fi
+
+  \end{tikzpicture}
+}
+
+\setbeamertemplate{frametitle}{
+ \ifnum\thepage>1%
+  \rightline{\insertframetitle}
+ \fi   
+}
+
+\begin{document}
+\begin{frame}
+    \titlepage
+
+    
+
+\end{frame}
+\begin{frame}
+    \frametitle{L'évolution des cartes graphiques.}
+
+    
+
+\end{frame}
+\end{document}
