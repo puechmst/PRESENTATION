@@ -1,9 +1,32 @@
 \section{Programmation sur GPU.}
+%1
 \begin{frame}
     \frametitle{Architecture matérielle.}
-\begin{block}{Les processeurs de flux (SM).}
-    
+\begin{block}{Les multiprocesseurs de flux (SM).}
+   \begin{itemize}
+    \item<+-> Héritier du pipeline graphique, le multiprocesseur de flux ("Streaming multiprocessor", SM) 
+    est une entité de traitement comportant un séquenceur, plusieurs unités de traitement numérique et une mémoire locale.
+    \item<+-> Un processeur graphique (GPU) regroupe plusieurs multiprocesseurs. 
+    \item<+-> Les multiprocesseurs exécutent des blocs de processus de façon \textbf{indépendante} et peuvent accéder à
+    une mémoire partagée.
+    \item<+-> Pour un développeur sur une architecture conventionnelle, un multiprocesseur s'apparente à un c{\oe}ur de calcul.
+   \end{itemize} 
 \end{block}
     
 
 \end{frame}
+%2
+\begin{frame}
+    \frametitle{Architecture matérielle.}
+\begin{block}{Les multiprocesseurs de flux (SM).}
+   \begin{itemize}
+    \item<+->À l'intérieur d'un multiprocesseur, les processus s'exécutent de façon concurrente, mais peuvent communiquer
+    via la mémoire locale ou être synchronisés.
+    \item<+->Les processus sont regroupés par blocs, appelés "warps", qui se voient affecter le même séquenceur 
+    d'instructions.
+    \item<+->Le modèle associé est dit "SIMT" pour "Single Instruction Multiple Thread".
+    \item<+->Les dernières générations de processeurs graphiques tendent à supprimer ces limitations.
+   \end{itemize} 
+\end{block}
+\end{frame}
+%3
