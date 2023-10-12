@@ -9,7 +9,8 @@
     \item<+-> Un processeur graphique (GPU) regroupe plusieurs multiprocesseurs. 
     \item<+-> Les multiprocesseurs exécutent des blocs de processus de façon \textbf{indépendante} et peuvent accéder à
     une mémoire partagée.
-    \item<+-> Pour un développeur sur une architecture conventionnelle, un multiprocesseur s'apparente à un c{\oe}ur de calcul.
+    \item<+-> Pour un développeur sur une architecture conventionnelle, un multiprocesseur s'apparente à un c{\oe}ur de calcul
+    vectoriel.
    \end{itemize} 
 \end{block}
     
@@ -48,7 +49,13 @@
     \frametitle{Architecture matérielle.}
 \begin{block}{La mémoire.}
    \begin{itemize}
-    \item<+-> 
+    \item<+-> Chaque multiprocesseur possède une mémoire locale très rapide, pouvant être partagée entre les processus
+    d'un même bloc. Elle est organisée en 32 banques pouvant être utilisées simultanément. Idéalement, 
+    chaque processus d'une chaîne accède à sa propre banque. La capacité de cette mémoire varie entre 64kB et 228kB 
+    selon les générations.
+    \item<+-> Les multiprocesseurs partagent une mémoire globale, plus lente, mais en mesure de stocker beaucoup plus 
+    de données. Les cartes de dernière génération, comme la RX4090, embarquent 24Gb de RAM.
+    \item<+-> L'architecture 9.0 introduit la notion de cluster de blocs et de mémoire partagée distribuée.
    \end{itemize} 
 \end{block}
 \end{frame}

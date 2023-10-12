@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  12 OCT 2023 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  12 OCT 2023 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,6 +849,10 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [10
 
+]
+Missing character: There is no ; in font nullfont!
+[11
+
 ])
 \tf@nav=\write6
 \openout6 = `cuda.nav'.
@@ -864,18 +868,18 @@ Package rerunfilecheck Info: File `cuda.out' has not changed.
 (rerunfilecheck)             Checksum: 0CB8896AF5A29F4C3076C469231F7120;257.
  ) 
 Here is how much of TeX's memory you used:
- 26175 strings out of 478268
- 520534 string characters out of 5850345
+ 26179 strings out of 478268
+ 520569 string characters out of 5850345
  760995 words of memory out of 5000000
- 43825 multiletter control sequences out of 15000+600000
+ 43827 multiletter control sequences out of 15000+600000
  482525 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,122p,498b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on cuda.pdf (10 pages, 367541 bytes).
+Output written on cuda.pdf (11 pages, 368941 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 28 named destinations out of 1000 (max. 500000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
