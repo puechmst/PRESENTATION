@@ -1,2 +1,2 @@
 \beamer@sectionintoc {1}{Historique}{3}{0}{1}
-\beamer@sectionintoc {2}{Programmation sur GPU}{9}{0}{2}
+\beamer@sectionintoc {2}{Architecture des GPUs}{9}{0}{2}
