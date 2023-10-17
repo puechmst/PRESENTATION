@@ -29,6 +29,7 @@
    \end{itemize} 
 \end{block}
 \end{frame}
+x
 %3
 \begin{frame}
     \frametitle{Architecture matérielle.}
@@ -41,6 +42,19 @@
     au même moment.
     \item<+-> En cas d'instruction conditionnelle, il peut y avoir divergence de code à l'intérieur d'une chaîne, ce qui se traduit par la 
     mise en attente d'un ou plusieurs processus dont l'exécution se poursuivra après celle de la branche principale. 
+   \end{itemize} 
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Architecture matérielle.}
+\begin{block}{L'ordonnancement des processus.}
+   \begin{itemize}
+    \item<+-> Le code à exécuter sur le GPU est appelé noyau ("kernel".)
+    \item<+-> Le programmeur décide du nombre de processus affectés à un même noyau et les répartit en blocs.
+    \item<+-> Un bloc sera pris en charge par un multiprocesseur libre.
+    \item<+-> Dans un bloc, des chaînes de 32 processus identifiés par des entiers consécutifs sont constituées. 
+    \item<+-> Depuis l'architecture Volta, chaque processus possède ses propres compteur de programme et pile d'appel,
+    ce qui permet un contrôle plus fin, en particulier en cas de divergence.
    \end{itemize} 
 \end{block}
 \end{frame}
@@ -57,5 +71,33 @@
     de données. Les cartes de dernière génération, comme la RX4090, embarquent 24Gb de RAM.
     \item<+-> L'architecture 9.0 introduit la notion de cluster de blocs et de mémoire partagée distribuée.
    \end{itemize} 
+\end{block}
+\end{frame}
+\begin{frame}{Les mémoires spécialisées.}
+\begin{block}{La mémoire de textures.}
+   \begin{itemize}
+    \item<+-> Les GPUs étant initialement conçus pour des applications de rendu graphique 3D, certaines mémoires
+    dédiées sont présentes. 
+    \item<+-> La mémoire de textures est particulièrement intéressante lorsque l'on cherche à stocker des données
+    bidimensionnelles que l'on souhaite ensuite interpoler.
+    \item<+-> Cette mémoire, chargée par le CPU, ne peut être modifiée par un programme CUDA.
+   \end{itemize} 
+\end{block}
+\end{frame}
+\begin{frame}{\`A retenir.}
+\begin{block}{Le GPU.}
+   \begin{itemize}
+    \item<+-> Un bloc est affecté à un multiprocesseur, les processus d'une même chaîne exécutent la même Instruction
+    en parallèle.
+    \item<+-> Il faut donc penser avant tout en termes de chaînes (32 processus).
+    \item<+-> Un branchement dans un même chaîne entraîne l'inactivation temporaire de processus.
+   \end{itemize} 
+\end{block}
+\begin{block}{La mémoire.}
+  \begin{itemize}
+   \item<+-> Privilégier l'utilisation de la mémoire partagée, bien plus rapide que la mémoire globale.
+   \item<+-> S'efforcer d'avoir des accès contigus pour les processus d'une même chaîne.
+   \item<+-> Penser à utiliser la mémoire des textures si nécessaire.
+  \end{itemize} 
 \end{block}
 \end{frame}

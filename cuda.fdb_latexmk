@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1697129933 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697129937
+["pdflatex"] 1697528339 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697528342
   "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" 1697123448 1198 a9b308bd8e155df62e67571726736754 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1650962494 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1650961674 1004 54797486969f23fa377b128694d548df ""
@@ -215,11 +215,11 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1650964198 4448422 53302d27d6d34c8e3e97ce3a8b4bdfa7 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650964319 2826440 5ac0ea7ffed4bc83f6d023419731ecaf ""
   "c:/texlive/2022/texmf.cnf" 1650964179 713 e69b156964470283e0530f5060668171 ""
-  "cuda.aux" 1697129936 3758 8d8fa3df28c468233a9d3052a28309b1 "pdflatex"
-  "cuda.nav" 1697129936 1530 4b7dafd631d25bf4127617c8d126ab83 "pdflatex"
-  "cuda.out" 1697129936 257 0cb8896af5a29f4c3076c469231f7120 "pdflatex"
+  "cuda.aux" 1697528342 4142 bf738cd673d9c44bc5b6c67db2b41eb6 "pdflatex"
+  "cuda.nav" 1697528342 1806 252b5d9e00202952be4e0ac0ca050693 "pdflatex"
+  "cuda.out" 1697528342 257 0cb8896af5a29f4c3076c469231f7120 "pdflatex"
   "cuda.tex" 1697123448 1198 a9b308bd8e155df62e67571726736754 ""
-  "cuda.toc" 1697129936 105 c4aec05e82c712bfa19c46fb6ab8879d "pdflatex"
+  "cuda.toc" 1697528342 105 c4aec05e82c712bfa19c46fb6ab8879d "pdflatex"
   "history.tex" 1697034169 3251 3a77ec85bb686e84268f0aa7946da6cd ""
   "images//3drage.jpg" 1697034096 63052 d5648671360fa3846b2e8657064bedc1 ""
   "images//ATI16800.jpg" 1697034066 20853 b2a23d388a062f08c94a1d23a3742930 ""
@@ -229,7 +229,7 @@
   "images//geforce8800.jpg" 1697034096 41019 8f7f3b57f8c5f95331939261ce5dc678 ""
   "images/Bloc_marque_RF_ENAC_V1.png" 1697006540 22996 c97b73ed729a97352269aac6737818b1 ""
   "images/Bloc_marque_RF_ENAC_V2.png" 1697002712 20445 4f830d35770bc652aef6188b70f0f780 ""
-  "model.tex" 1697129932 3262 37f8958673488e1a3670cd6cb5ee8c6d ""
+  "model.tex" 1697528338 5408 8dfefc380cf0840142fe7b6624e83246 ""
   (generated)
   "cuda.aux"
   "cuda.log"
