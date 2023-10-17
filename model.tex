@@ -1,8 +1,8 @@
 \section{Programmation sur GPU}
 %1
 \begin{frame}
-    \frametitle{Architecture matérielle.}
-\begin{block}{Les multiprocesseurs de flux (SM).}
+    \frametitle{Architecture matérielle}
+\begin{block}{Les multiprocesseurs de flux (SM)}
    \begin{itemize}
     \item<+-> Héritier du pipeline graphique, le multiprocesseur de flux ("Streaming multiprocessor", SM) 
     est une entité de traitement comportant des séquenceurs, plusieurs unités de traitement numérique et une mémoire locale.
@@ -18,8 +18,8 @@
 \end{frame}
 %2
 \begin{frame}
-    \frametitle{Architecture matérielle.}
-\begin{block}{Les multiprocesseurs de flux (SM).}
+    \frametitle{Architecture matérielle}
+\begin{block}{Les multiprocesseurs de flux (SM)}
    \begin{itemize}
     \item<+->À l'intérieur d'un multiprocesseur, les processus s'exécutent de façon concurrente, mais peuvent communiquer
     via la mémoire locale ou être synchronisés.
@@ -32,8 +32,8 @@
 x
 %3
 \begin{frame}
-    \frametitle{Architecture matérielle.}
-\begin{block}{Les unités de calcul.}
+    \frametitle{Architecture matérielle}
+\begin{block}{Les unités de calcul}
    \begin{itemize}
     \item<+-> Le nombre d'unités de calcul par multiprocesseur dépend des générations de cartes. Pour l'architecture 
     Ampère, on trouve 64 ou 128 unités flottantes 32bits, 32 ou 2 unités flottantes 64bits, 64 unités de calcul entier
@@ -46,8 +46,8 @@ x
 \end{block}
 \end{frame}
 \begin{frame}
-    \frametitle{Architecture matérielle.}
-\begin{block}{L'ordonnancement des processus.}
+    \frametitle{Architecture matérielle}
+\begin{block}{L'ordonnancement des processus}
    \begin{itemize}
     \item<+-> Le code à exécuter sur le GPU est appelé noyau ("kernel".)
     \item<+-> Le programmeur décide du nombre de processus affectés à un même noyau et les répartit en blocs.
@@ -60,8 +60,8 @@ x
 \end{frame}
 %4
 \begin{frame}
-    \frametitle{Architecture matérielle.}
-\begin{block}{La mémoire.}
+    \frametitle{Architecture matérielle}
+\begin{block}{La mémoire}
    \begin{itemize}
     \item<+-> Chaque multiprocesseur possède une mémoire locale très rapide, pouvant être partagée entre les processus
     d'un même bloc. Elle est organisée en 32 banques pouvant être utilisées simultanément. Idéalement, 
@@ -73,8 +73,8 @@ x
    \end{itemize} 
 \end{block}
 \end{frame}
-\begin{frame}{Les mémoires spécialisées.}
-\begin{block}{La mémoire de textures.}
+\begin{frame}{Les mémoires spécialisées}
+\begin{block}{La mémoire de textures}
    \begin{itemize}
     \item<+-> Les GPUs étant initialement conçus pour des applications de rendu graphique 3D, certaines mémoires
     dédiées sont présentes. 
@@ -84,8 +84,8 @@ x
    \end{itemize} 
 \end{block}
 \end{frame}
-\begin{frame}{\`A retenir.}
-\begin{block}{Le GPU.}
+\begin{frame}{\`A retenir}
+\begin{block}{Le GPU}
    \begin{itemize}
     \item<+-> Un bloc est affecté à un multiprocesseur, les processus d'une même chaîne exécutent la même Instruction
     en parallèle.
@@ -93,7 +93,7 @@ x
     \item<+-> Un branchement dans un même chaîne entraîne l'inactivation temporaire de processus.
    \end{itemize} 
 \end{block}
-\begin{block}{La mémoire.}
+\begin{block}{La mémoire}
   \begin{itemize}
    \item<+-> Privilégier l'utilisation de la mémoire partagée, bien plus rapide que la mémoire globale.
    \item<+-> S'efforcer d'avoir des accès contigus pour les processus d'une même chaîne.
