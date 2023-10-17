@@ -1,7 +1,68 @@
 \section{Programmation}
 \begin{frame}
-    \frametitle{Un premier programme}
+    \frametitle{Compilation}
+\begin{block}{Un dialecte de C/C++}
+    \begin{itemize}
+        \item<+-> Le GPU se programme en C/C++ avec des directives spécifiques reconnues par nvcc, le 
+        compilateur de NVIDIA.
+        \item<+-> Placées devant un nom de variable ou de fonction, elles permettent d'en spécifier l'emplacement.
+        \item<+-> Le fichier devant être compilé avec nvcc doit avoir l'extension \texttt{.cu}.
+        \item<+-> CMake reconnaît CUDA comme un langage à part entière, détecte l'environnement de développement NVIDIA
+        et génère les projets en conséquence.
+    \end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Directives d'exécution}
+\begin{block}{Avant la déclaration d'une fonction}
+    \renewcommand{\arraystretch}{3}
+    \vskip 20pt
+    \begin{tabular}{|c|c|}
+        \hline
+        \rowcolor{lightgray} Directive & Effet \\ \hline
+        \_\_global\_\_ & \begin{minipage}{0.8\textwidth}
+            La fonction est un noyau. Elle est compilée pour le GPU, mais peut être appelée depuis le CPU. 
+        \end{minipage} \\ \hline
+        \_\_device\_\_ & \begin{minipage}{0.8\textwidth}
+            La fonction est compilée pour le GPU et ne peut être appelée que depuis le GPU. 
+        \end{minipage} \\ \hline
+        \_\_host\_\_ & \begin{minipage}{0.8\textwidth}
+            La fonction est compilée pour le CPU et ne peut être appelée que depuis le CPU (comportement par défaut). 
+        \end{minipage} \\ \hline
+    \end{tabular}
+\end{block}
 
-    
+\end{frame}
+\begin{frame}
+    \frametitle{Directives de stockage}
+\begin{block}{Avant la déclaration d'une variable}
+    \renewcommand{\arraystretch}{2.5}
+    \vskip 20pt
+    \begin{tabular}{|c|c|}
+        \hline
+        \rowcolor{lightgray} Directive & Effet \\ \hline
+        \_\_device\_\_ & \begin{minipage}{0.8\textwidth}
+            La variable est stockée dans la mémoire globale. 
+        \end{minipage} \\ \hline
+        \_\_constant\_\_ & \begin{minipage}{0.8\textwidth}
+            La variable est stockée dans la mémoire globale des constantes.
+        \end{minipage} \\ \hline
+        \_\_shared\_\_ & \begin{minipage}{0.8\textwidth}
+            La variable est stockée dans la mémoire partagée d'un multiprocesseur.
+        \end{minipage} \\ \hline
+    \end{tabular}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Directives d'exécution}
+\begin{block}{Lancement d'un noyau}
+    \begin{itemize}
+          \item<+-> Une fonction \texttt{fun} déclarée avec la directive \texttt{\_\_global\_\_} est éligible à une exécution parallèle 
+  sur le GPU.
+  \item<+-> La directive de lancement prend la forme suivante.
+    \end{itemize}
+
+\end{block}
 
 \end{frame}

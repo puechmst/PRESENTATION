@@ -2,4 +2,7 @@
 .out
 .fls
 .log
+.pdf
+.nav
+.toc
 .synctex.gz
