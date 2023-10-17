@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1697534228 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697534231
+["pdflatex"] 1697534442 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1697534445
   "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" 1697533751 1220 6ae5687bf7f08f253579f3faba972976 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650962008 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1650962494 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -222,12 +222,12 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1650964198 4448422 53302d27d6d34c8e3e97ce3a8b4bdfa7 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650964319 2826440 5ac0ea7ffed4bc83f6d023419731ecaf ""
   "c:/texlive/2022/texmf.cnf" 1650964179 713 e69b156964470283e0530f5060668171 ""
-  "cuda.aux" 1697534231 4264 7bcf2282a071ee26e416ba0370154ae5 "pdflatex"
-  "cuda.nav" 1697534231 1894 2b0b243ebd40359d00e9298ce310946c "pdflatex"
-  "cuda.out" 1697534231 247 eef2a3a27db5daa0d4d2140f25c67bcf "pdflatex"
+  "cuda.aux" 1697534445 4264 7bcf2282a071ee26e416ba0370154ae5 "pdflatex"
+  "cuda.nav" 1697534445 1894 2b0b243ebd40359d00e9298ce310946c "pdflatex"
+  "cuda.out" 1697534445 247 eef2a3a27db5daa0d4d2140f25c67bcf "pdflatex"
   "cuda.tex" 1697533751 1220 6ae5687bf7f08f253579f3faba972976 ""
-  "cuda.toc" 1697534231 103 6d5ed5bab954df6cbe2f6696429e983d "pdflatex"
-  "history.tex" 1697534164 4148 d07e50608e2b15708f28808480e5d66a ""
+  "cuda.toc" 1697534445 103 6d5ed5bab954df6cbe2f6696429e983d "pdflatex"
+  "history.tex" 1697534441 4148 d07e50608e2b15708f28808480e5d66a ""
   "images//3drage.jpg" 1697034096 63052 d5648671360fa3846b2e8657064bedc1 ""
   "images//ATI16800.jpg" 1697034066 20853 b2a23d388a062f08c94a1d23a3742930 ""
   "images//ATI16899.jpg" 1697034154 53927 81d362e1a71a183e52ef950c3ff0c780 ""
