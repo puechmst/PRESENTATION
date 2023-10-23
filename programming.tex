@@ -60,7 +60,10 @@
     \begin{itemize}
           \item<+-> Une fonction \texttt{fun} déclarée avec la directive \texttt{\_\_global\_\_} est éligible à une exécution parallèle 
   sur le GPU.
-  \item<+-> La directive de lancement prend la forme suivante.
+  \item<+-> La directive de lancement prend la forme suivante:
+  \begin{verbatim}
+    fun<<<grid_dim,bloc_dim,
+  \end{verbatim}
     \end{itemize}
 
 \end{block}
