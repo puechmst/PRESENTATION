@@ -3,12 +3,16 @@
 \usepackage[utf8]{inputenc}
 \usepackage{subcaption}
 \usepackage{colortbl}
+\usepackage{listings}
 \graphicspath{{./}{images/}}
 \usetheme{default}
 \title{Programmation CUDA}
 \author{S. Puechmorel}
 \date{2023}
-
+\newcommand{\nvglobal}{\texttt{\_\_global\_\_}}
+\newcommand{\nvdevice}{\texttt{\_\_device\_\_}}
+\newcommand{\nvhost}{\texttt{\_\_host\_\_}}
+\newcommand{\nvshared}{\texttt{\_\_shared\_\_}}
 \pgfdeclareimage[interpolate=true, height=0.155\paperwidth,width=\paperwidth]{bloc_enac}{images/Bloc_marque_RF_ENAC_V2.png}
 \pgfdeclareimage[interpolate=true, height=40pt]{bloc2_enac}{images/Bloc_marque_RF_ENAC_V1.png}
 \setbeamertemplate{background}{
@@ -38,7 +42,7 @@
 \end{frame}
 %2
 \begin{frame}
-  \frametitle{Plan}
+    \frametitle{Plan}
 \tableofcontents
 \end{frame}
 \input{history.tex}

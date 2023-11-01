@@ -1,0 +1,19 @@
+\frametitle{Exemple de programme}
+\begin{block}{Le produit matriciel sur CPU}
+    \begin{lstlisting}[basicstyle=\footnotesize,tabsize=4,language=c++]
+
+void host_matmul(int lda, int ncol, float* a,
+    int ldb, float* b, float* res) {
+	double s;
+
+	for (int i = 0 ; i < lda; i++) {
+		for (int j = 0 ; j < k ; j++) {
+			s = 0.0;
+			for (int k = 0; k < ldb; k++)
+				s += a[i * lda + k] * b[k * ldb + j];
+		}
+		c[i * lda + j] = s;
+	}
+}
+\end{lstlisting}
+\end{block}

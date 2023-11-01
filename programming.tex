@@ -61,11 +61,207 @@
           \item<+-> Une fonction \texttt{fun} déclarée avec la directive \texttt{\_\_global\_\_} est éligible à une exécution parallèle 
   sur le GPU.
   \item<+-> La directive de lancement prend la forme suivante:
-  \begin{verbatim}
-    fun<<<grid_dim,bloc_dim,
-  \end{verbatim}
-    \end{itemize}
+{\footnotesize $<<<$\texttt{gridDim,blockDim,sharedMen=0,stream=NULL}$>>>$\texttt{fun(args)}}
+ \item<+-> \texttt{gridDim} est une structure de 3 entiers, $gridDim.x,gridDim.y,gridDim.z$ déterminant la taille de la
+ grille de blocs.
+  \item<+-> \texttt{blocDim} est une structure de 3 entiers, $blocDim.x,blocDim.y,blocDim.z$ déterminant la taille d'un 
+  bloc de threads.
+  \item<+-> \texttt{sharedMem} est la taille totale en octets de mémoire partagée allouée dynamiquement. 
+  \item<+-> \texttt{stream} est un pointeur vers un objet de type \texttt{stream} qui permet de gérer le parallélisme.
+
+\end{itemize}
 
 \end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Dimensions}
+\begin{block}{Dimensions de bloc}
+    \begin{itemize}
+          \item<+-> Un bloc de processus est affecté à un multiprocesseur et ne peut pas excéder une
+          certaine valeur.
+          \item<+-> Pour des raisons de flexibilité lors du codage, une tel bloc peut être organisé en 
+          un tableau à une, deux ou trois dimensions. 
+          \item<+-> La première coordonnée est particulière : elle peut recevoir l'intégralité du bloc. 
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Dimensions}
+\begin{block}{Dimensions de grille}
+    \begin{itemize}
+          \item<+-> Les processus lancés sont d'abord organisés en blocs, puis les blocs en grille.
+          \item<+-> Tout comme précédemment, les grilles possèdent trois dimensions, la première pouvant 
+          adresser tous les blocs.
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Dimensions}
+\begin{block}{Obtention des valeurs maximales}
+    \begin{itemize}
+          \item<+-> La fonction \texttt{cudaDeviceGetAttribute} permet de connaître les valeurs maximales pour les dimensions de grilles
+          et de blocs.
+          \item<+-> Sa signature est:
+        {\footnotesize \nvhost \nvdevice \texttt{ cudaError\_t cudaDeviceGetAttribute ( int* value, cudaDeviceAttr attr, int  device )}}
+          \item<+-> De nombreuses caractéristiques du GPU référencé par l'attibut \texttt{device} peuvent être obtenues.
+          \item<+-> Pour les dimensions,  \texttt{attr} prendra les valeurs: 
+          {\footnotesize \texttt{cudaDevAttrMaxBlockDimX,\dots,cudaDevAttrMaxGridDimX,\dots }}
+    \end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{Exemple de programme}
+\begin{block}{Le produit matriciel sur CPU}
+    \begin{lstlisting}[basicstyle=\footnotesize,tabsize=4,language=c++]
+  
+void host_matmul(int lda, int ncol, float* a, 
+    int ldb, float* b, float* res) {
+	double s;
 
+	for (int i = 0 ; i < lda; i++) {
+		for (int j = 0 ; j < k ; j++) {
+			s = 0.0;
+			for (int k = 0; k < ldb; k++)
+				s += a[i * lda + k] * b[k * ldb + j];
+		}
+		c[i * lda + j] = s;
+	}
+}
+\end{lstlisting}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemple de programme}
+\begin{block}{Passage sur GPU}
+    \begin{itemize}
+        \item<+-> On remarque que l'écriture dans $C$ peut être asynchrone.
+        \item<+-> Les deux boucles de niveau supérieur sont remplacées par des appels parallèles.
+        \item<+-> La boucle interne est exécutée par chaque processus.
+        \item<+-> Un bloc reçoit une sous-matrice de $C$ à calculer.
+        \item<+-> Pour une écriture plus simple des calculs, on choisira d'organiser la grille et les 
+        blocs en deux dimensions.
+    \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemple de programme}
+\begin{block}{Noyau de calcul}
+   \begin{figure}
+    \centering
+   \includegraphics[scale=0.5]{matmul.png}
+   \end{figure}
+   \begin{itemize}
+    \item<+-> L'élément à calculer est obtenu à partir des coordonnées de bloc (\texttt{blockIdx}), puis de processus
+    (\texttt{threadIdx}).
+    \item<+-> Seule la boucle interne est conservée.
+    \item<+-> Chaque processus opère sur une ligne et une colonne de la matrice
+   \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemple de programme}
+\begin{block}{Exécution}
+   \begin{figure}
+    \centering
+   \includegraphics[scale=0.5]{device_matmul.png}
+   \end{figure}
+   \begin{itemize}
+    \item<+-> La fonction \texttt{cudaMalloc} permet d'allouer de la mémoire sur le GPU.
+    \item<+-> Elle est libérée par \texttt{cudaFree}.
+    \item<+-> Les données sont transférées par \texttt{cudaMemcpy}.
+   \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemple de programme}
+\begin{block}{Vitesse d'exécution}
+   \begin{itemize}
+    \item<+-> Deux matrices 1000x1000 sont multipliées.
+    \item<+-> Sur la configuration de référence, on relève, pour le GPU, une performance de 55 GFlops.
+    \item<+-> Pour le CPU, elle est de 1 Gflops.
+    \item<+-> Peut-on améliorer la vitesse de calcul ?
+   \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Produit matriciel simple}
+\begin{block}{Accès mémoire}
+    \begin{tabular}{cc}
+        \begin{minipage}{0.45\textwidth}
+ \begin{figure}[htbp]
+    \centering
+   \includegraphics[width=\textwidth]{matmul_simple.png}
+    \caption{Accès linéaire.}
+    \label{fig:acces_matmul_simple}
+\end{figure}
+        \end{minipage} & 
+        \begin{minipage}{0.45\textwidth}
+            \begin{itemize}
+                \item<+-> Seule la mémoire globale est utilisée.
+                \item<+-> Tous les processus de même numéro de ligne (resp. colonne) accèdent aux mêmes données dans 
+                $A$ (resp. $B$).
+            \end{itemize}
+        \end{minipage}
+\end{tabular}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Produit matriciel par blocs}
+\begin{block}{améliorer l'utilisation des données}
+   \begin{itemize}
+    \item<+-> Le produit de deux matrices peut s'effectuer par blocs:
+    \begin{equation}
+        \label{eq:produit_bloc}
+        \begin{split}
+         & \begin{pmatrix}
+            A_{1,1} & A_{1,2} & \ldots & A_{1,n} \\
+            \vdots & \vdots & \vdots & \vdots \\
+            A_{i,1} & A_{i,2} & \ldots & A_{i,n} \\
+            \vdots & \vdots & \vdots & \vdots \\
+            A_{m,1} & A_{m,2} & \ldots & A_{m,n} \\
+        \end{pmatrix}
+        \begin{pmatrix}
+            B_{1,1}  & \ldots & B_{1,j} & \ldots & B_{1,p} \\
+            \vdots & \vdots & \vdots & \vdots \\
+            \vdots & \vdots & \vdots & \vdots \\
+            B_{n,1} & B_{n,2} & B_{n,j} & \ldots & B_{n,p} \\
+        \end{pmatrix} \\
+        & = \begin{pmatrix}
+            C_{1,1} & \ldots & C_{1,p} \\
+            \vdots & \vdots & \vdots \\
+            \vdots & \vdots & \vdots \\
+            C_{m,1} & \ldots & C_{m,p}
+        \end{pmatrix}, \quad C_{i,j} = \sum_{k=1} A_{i,k} B_{k,j}
+        \end{split}
+    \end{equation}
+   \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Produit matriciel par blocs}
+\begin{block}{Accès mémoire}
+   \begin{tabular}{cc}
+        \begin{minipage}{0.45\textwidth}
+ \begin{figure}[htbp]
+    \centering
+   \includegraphics[width=\textwidth]{matmul_bloc.png}
+    \caption{Accès par blocs.}
+    \label{fig:acces_matmul_bloc}
+\end{figure}
+        \end{minipage} & 
+        \begin{minipage}{0.45\textwidth}
+            \begin{itemize}
+                \item<+-> Les données d'un même bloc peuvent résider en mémoire partagée.
+                \item<+-> Tous les processus d'une même chaîne peuvent effectuer un chargement simultané.
+           \end{itemize}
+        \end{minipage}
+\end{tabular}
+\end{block}
 \end{frame}
