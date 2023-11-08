@@ -265,3 +265,39 @@ void host_matmul(int lda, int ncol, float* a,
 \end{tabular}
 \end{block}
 \end{frame}
+\begin{frame}
+    \frametitle{Produit matriciel par blocs}
+\begin{block}{Codage}
+   \begin{tabular}{cc}
+        \begin{minipage}{0.45\textwidth}
+ \begin{figure}[htbp]
+    \centering
+   \includegraphics[width=\textwidth]{produit_bloc.png}
+    \caption{Accès par blocs.}
+    \label{fig:codage_produit_bloc}
+\end{figure}
+        \end{minipage} & 
+        \begin{minipage}{0.45\textwidth}
+            \begin{itemize}
+                \item<+-> Chaque processus charge un élément en mémoire partagée.
+                \item<+-> Les éléments invalides sont mis à 0.
+                \item<+-> Les blocs externes sont traités spécialement.
+           \end{itemize}
+        \end{minipage}
+\end{tabular}
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Produit matriciel par blocs}
+\begin{block}{Performances}
+ \begin{itemize}
+    \item<+-> Avec une dimension de bloc de 8 (soit 64 processus), on atteint 350 Gflops sur des
+    matrices de taille 10000.
+    \item<+-> En comparaison, le CPU ne dépasse pas 2 GFlops. 
+    \item<+-> Il est possible d'optimiser encore le code, en particulier en améliorant la gestion des blocs
+    situés en périphérie de la grille.
+    \item<+-> Le produit matriciel est toutefois un exemple simple, le code GPU étant assez similaire à son 
+    homologue CPU.
+ \end{itemize} 
+\end{block}
+\end{frame}

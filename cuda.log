@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  1 NOV 2023 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  8 NOV 2023 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,7 +731,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (./cuda.out) (./cuda.out)
 \@outlinefile=\write5
 \openout5 = `cuda.out'.
 
@@ -805,12 +804,13 @@ Package caption Info: End \AtBeginDocument code.
 Missing character: There is no ; in font nullfont!
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/Bloc_marque_RF_ENAC_V2.png>] (./cuda.toc)
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/Bloc_marque_RF_ENAC_V2.png>]
+No file cuda.toc.
 Missing character: There is no ; in font nullfont!
 [2
 
  <./images/Bloc_marque_RF_ENAC_V1.png>] (./history.tex
-<images//Motorola_MC6845.jpg, id=49, 162.1257pt x 59.2614pt>
+<images//Motorola_MC6845.jpg, id=31, 162.1257pt x 59.2614pt>
 File: images//Motorola_MC6845.jpg Graphic file (type jpg)
 <use images//Motorola_MC6845.jpg>
 Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 16.
@@ -831,12 +831,12 @@ Missing character: There is no ; in font nullfont!
 [3
 
  <./images//Motorola_MC6845.jpg>]
-<images//ATI16800.jpg, id=58, 201.75375pt x 200.75pt>
+<images//ATI16800.jpg, id=42, 201.75375pt x 200.75pt>
 File: images//ATI16800.jpg Graphic file (type jpg)
 <use images//ATI16800.jpg>
 Package pdftex.def Info: images//ATI16800.jpg  used on input line 38.
 (pdftex.def)             Requested size: 90.78835pt x 90.33665pt.
-<images//ATI16899.jpg, id=59, 256.96pt x 200.75pt>
+<images//ATI16899.jpg, id=43, 256.96pt x 200.75pt>
 File: images//ATI16899.jpg Graphic file (type jpg)
 <use images//ATI16899.jpg>
 Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
@@ -846,7 +846,7 @@ Missing character: There is no ; in font nullfont!
 [4
 
  <./images//ATI16800.jpg> <./images//ATI16899.jpg>]
-<images//3drage.jpg, id=66, 337.26pt x 340.27126pt>
+<images//3drage.jpg, id=50, 337.26pt x 340.27126pt>
 File: images//3drage.jpg Graphic file (type jpg)
 <use images//3drage.jpg>
 Package pdftex.def Info: images//3drage.jpg  used on input line 54.
@@ -856,7 +856,7 @@ Missing character: There is no ; in font nullfont!
 [5
 
  <./images//3drage.jpg>]
-<images//Geforce3gpu.jpg, id=73, 441.65pt x 312.16624pt>
+<images//Geforce3gpu.jpg, id=57, 441.65pt x 312.16624pt>
 File: images//Geforce3gpu.jpg Graphic file (type jpg)
 <use images//Geforce3gpu.jpg>
 Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 69.
@@ -866,7 +866,7 @@ Missing character: There is no ; in font nullfont!
 [6
 
  <./images//Geforce3gpu.jpg>]
-<images//geforce8800.jpg, id=80, 421.575pt x 311.1625pt>
+<images//geforce8800.jpg, id=64, 421.575pt x 311.1625pt>
 File: images//geforce8800.jpg Graphic file (type jpg)
 <use images//geforce8800.jpg>
 Package pdftex.def Info: images//geforce8800.jpg  used on input line 86.
@@ -990,7 +990,7 @@ Missing character: There is no ; in font nullfont!
 [25
 
 ]
-<images//matmul.png, id=190, 525.46312pt x 156.585pt>
+<images//matmul.png, id=178, 525.46312pt x 156.585pt>
 File: images//matmul.png Graphic file (type png)
 <use images//matmul.png>
 Package pdftex.def Info: images//matmul.png  used on input line 162.
@@ -1000,7 +1000,7 @@ Missing character: There is no ; in font nullfont!
 [26
 
  <./images//matmul.png>]
-<images//device_matmul.png, id=197, 606.76688pt x 246.9225pt>
+<images//device_matmul.png, id=185, 606.76688pt x 246.9225pt>
 File: images//device_matmul.png Graphic file (type png)
 <use images//device_matmul.png>
 Package pdftex.def Info: images//device_matmul.png  used on input line 177.
@@ -1014,7 +1014,7 @@ Missing character: There is no ; in font nullfont!
 [28
 
 ]
-<images//matmul_simple.png, id=209, 845.40843pt x 597.73312pt>
+<images//matmul_simple.png, id=197, 845.40843pt x 597.73312pt>
 File: images//matmul_simple.png Graphic file (type png)
 <use images//matmul_simple.png>
 Package pdftex.def Info: images//matmul_simple.png  used on input line 212.
@@ -1028,7 +1028,7 @@ Missing character: There is no ; in font nullfont!
 [30
 
 ]
-<images//matmul_bloc.png, id=226, 845.40843pt x 597.73312pt>
+<images//matmul_bloc.png, id=214, 845.40843pt x 597.73312pt>
 File: images//matmul_bloc.png Graphic file (type png)
 <use images//matmul_bloc.png>
 Package pdftex.def Info: images//matmul_bloc.png  used on input line 267.
@@ -1037,7 +1037,37 @@ Package pdftex.def Info: images//matmul_bloc.png  used on input line 267.
 Missing character: There is no ; in font nullfont!
 [31
 
- <./images//matmul_bloc.png>])
+ <./images//matmul_bloc.png>]
+<images//produit_bloc.png, id=223, 491.436pt x 427.5975pt>
+File: images//produit_bloc.png Graphic file (type png)
+<use images//produit_bloc.png>
+Package pdftex.def Info: images//produit_bloc.png  used on input line 289.
+(pdftex.def)             Requested size: 138.2795pt x 120.31369pt.
+
+Missing character: There is no ; in font nullfont!
+[32
+
+ <./images//produit_bloc.png>]
+Missing character: There is no ; in font nullfont!
+[33
+
+]) (./stream.tex
+Missing character: There is no ; in font nullfont!
+[34
+
+])
+Runaway argument?
+ 
+c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex:51: File ended while scanning use of \frame.
+<inserted text> 
+                \par 
+l.51 \input{stream.tex}
+                       
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \tf@nav=\write6
 \openout6 = `cuda.nav'.
 
@@ -1047,26 +1077,53 @@ Missing character: There is no ; in font nullfont!
 \tf@snm=\write8
 \openout8 = `cuda.snm'.
 
- (./cuda.aux)
+
+c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex:52: LaTeX Error: \begin{frame} on input line 14 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./cuda.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `cuda.out' has not changed.
-(rerunfilecheck)             Checksum: DF425A8081AE14052C514557F0756EB0;355.
- ) 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `cuda.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cuda.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7A50E40253F901F3A49167E3A0EDED73;615.
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 15 (\begingroup)
+### semi simple group (level 1) entered at line 14 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 28298 strings out of 478268
- 549815 string characters out of 5850345
- 982236 words of memory out of 5000000
- 45856 multiletter control sequences out of 15000+600000
+ 28309 strings out of 478268
+ 549928 string characters out of 5850345
+ 981937 words of memory out of 5000000
+ 45862 multiletter control sequences out of 15000+600000
  483496 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,26n,122p,498b,1683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,26n,122p,498b,1682s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
-Output written on cuda.pdf (31 pages, 789781 bytes).
+Output written on cuda.pdf (34 pages, 958053 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,23 @@
+\section{Synchronisation et parallélisme dynamique}
+\begin{frame}
+    \frametitle{Flux de synchronisation}
+\begin{block}{Opérations asynchrones}
+    \begin{itemize}
+        \item<+-> Par défaut, les exécutions de noyaux sur le GPU sont indépendantes du déroulement
+        du programme sur CPU, sauf pour les transferts mémoire ou les lancements de grilles de processus.
+        \item<+-> Dans de nombreux cas, il pourrait être bénéfique de s'affranchir de cette limitation.
+        \item<+-> Les flux d'exécution ont été introduits pour permettre à des noyaux différents ou à des Opérations
+        de transfert entre hôte et GPU de se dérouler concurremment. 
+    \end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+    \frametitle{Flux de synchronisation}
+\begin{block}{Transferts mémoire asynchrones}
+    \begin{itemize}
+        \item<+-> Un flux d'exécution est créé par un appel à la fonction \texttt{cudaStreamCreate(cudaStream_t *stream)}
+        \item<+-> Il est supprimé en appelant \texttt{cudaStreamDestroy(cudaStream_t stream)}
+        \item<+-> Un transfert mémoire associé à un flux est réalisé à l'aide de la fonction \texttt{cudaMemcpyAsync()}.
+        \item<+-> Il est indépendant de l'ordre d'appel sur l'hôte, mais est synchronisé sur le flux.
+\end{block}
+\end{frame}
