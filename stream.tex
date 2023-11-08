@@ -11,13 +11,14 @@
     \end{itemize}
 \end{block}
 \end{frame}
-\begin{frame}
+\begin{frame}[fragile]
     \frametitle{Flux de synchronisation}
 \begin{block}{Transferts mémoire asynchrones}
     \begin{itemize}
-        \item<+-> Un flux d'exécution est créé par un appel à la fonction \texttt{cudaStreamCreate(cudaStream_t *stream)}
-        \item<+-> Il est supprimé en appelant \texttt{cudaStreamDestroy(cudaStream_t stream)}
+        \item<+-> Un flux d'exécution est créé par un appel à la fonction \texttt{cudaStreamCreate(cudaStream\_t *stream)}
+        \item<+-> Il est supprimé en appelant \texttt{cudaStreamDestroy(cudaStream\_t stream)}
         \item<+-> Un transfert mémoire associé à un flux est réalisé à l'aide de la fonction \texttt{cudaMemcpyAsync()}.
         \item<+-> Il est indépendant de l'ordre d'appel sur l'hôte, mais est synchronisé sur le flux.
+    \end{itemize}
 \end{block}
 \end{frame}

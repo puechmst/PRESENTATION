@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1699460163 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1699460163
+["pdflatex"] 1699460326 "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" "cuda.pdf" "cuda" 1699460329
   "c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex" 1699458760 1480 0eeb6faa4a84af9f6d406dbb7cb037c6 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650962008 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1650962494 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -238,12 +238,12 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1650964198 4448422 53302d27d6d34c8e3e97ce3a8b4bdfa7 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650964319 2826440 5ac0ea7ffed4bc83f6d023419731ecaf ""
   "c:/texlive/2022/texmf.cnf" 1650964179 713 e69b156964470283e0530f5060668171 ""
-  "cuda.aux" 1699460163 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "cuda.nav" 0 -1 0 "pdflatex"
-  "cuda.out" 0 -1 0 "pdflatex"
+  "cuda.aux" 1699460329 7910 145991fcab1c2c2a743f24353390079b "pdflatex"
+  "cuda.nav" 1699460329 4034 b2377f7071bc110442e200f8307e271b "pdflatex"
+  "cuda.out" 1699460329 615 7a50e40253f901f3a49167e3a0eded73 "pdflatex"
   "cuda.tex" 1699458760 1480 0eeb6faa4a84af9f6d406dbb7cb037c6 ""
-  "cuda.toc" 0 -1 0 "pdflatex"
-  "cuda.vrb" 0 -1 0 "pdflatex"
+  "cuda.toc" 1699460329 232 d477eda9a18750f6072bb38a52da3261 "pdflatex"
+  "cuda.vrb" 1699460329 589 e71138f70b2b76303e5007b9eeed5dbe "pdflatex"
   "history.tex" 1697559770 4105 1aee84f6f974c1a78171faba0012e239 ""
   "images//3drage.jpg" 1697034096 63052 d5648671360fa3846b2e8657064bedc1 ""
   "images//ATI16800.jpg" 1697034066 20853 b2a23d388a062f08c94a1d23a3742930 ""
@@ -260,7 +260,7 @@
   "images/Bloc_marque_RF_ENAC_V2.png" 1697002712 20445 4f830d35770bc652aef6188b70f0f780 ""
   "model.tex" 1697534557 5394 dcaf8b797c45c34be46a3e006c62fb16 ""
   "programming.tex" 1699456822 11847 6da734a0351c654d56934f1dfe94d7ea ""
-  "stream.tex" 1699460157 1343 53ebae4623396d3f1cc9257aac58676d ""
+  "stream.tex" 1699460325 1373 3f46be275bec7d6ea5886ffcc6267a54 ""
   (generated)
   "cuda.aux"
   "cuda.log"

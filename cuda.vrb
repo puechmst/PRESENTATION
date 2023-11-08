@@ -1,19 +1,9 @@
-\frametitle{Exemple de programme}
-\begin{block}{Le produit matriciel sur CPU}
-    \begin{lstlisting}[basicstyle=\footnotesize,tabsize=4,language=c++]
-
-void host_matmul(int lda, int ncol, float* a,
-    int ldb, float* b, float* res) {
-	double s;
-
-	for (int i = 0 ; i < lda; i++) {
-		for (int j = 0 ; j < k ; j++) {
-			s = 0.0;
-			for (int k = 0; k < ldb; k++)
-				s += a[i * lda + k] * b[k * ldb + j];
-		}
-		c[i * lda + j] = s;
-	}
-}
-\end{lstlisting}
+\frametitle{Flux de synchronisation}
+\begin{block}{Transferts mémoire asynchrones}
+    \begin{itemize}
+        \item<+-> Un flux d'exécution est créé par un appel à la fonction \texttt{cudaStreamCreate(cudaStream\_t *stream)}
+        \item<+-> Il est supprimé en appelant \texttt{cudaStreamDestroy(cudaStream\_t stream)}
+        \item<+-> Un transfert mémoire associé à un flux est réalisé à l'aide de la fonction \texttt{cudaMemcpyAsync()}.
+        \item<+-> Il est indépendant de l'ordre d'appel sur l'hôte, mais est synchronisé sur le flux.
+    \end{itemize}
 \end{block}
