@@ -7,3 +7,6 @@
 \beamer@slide {eq:produit_bloc}{30}
 \beamer@slide {fig:acces_matmul_bloc}{31}
 \beamer@slide {fig:codage_produit_bloc}{32}
+\beamer@slide {fig:device_dot}{38}
+\beamer@slide {fig:launch_dot}{39}
+\beamer@slide {fig:launch_dot}{40}
