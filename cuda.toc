@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Architecture des GPUs}{9}{0}{2}
 \beamer@sectionintoc {3}{Programmation}{17}{0}{3}
 \beamer@sectionintoc {4}{Synchronisation et parallélisme dynamique}{34}{0}{4}
+\beamer@sectionintoc {5}{Mémoire unifiée}{43}{0}{5}

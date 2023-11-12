@@ -8,5 +8,8 @@
 \beamer@slide {fig:acces_matmul_bloc}{31}
 \beamer@slide {fig:codage_produit_bloc}{32}
 \beamer@slide {fig:device_dot}{38}
-\beamer@slide {fig:launch_dot}{39}
+\beamer@slide {fig:host_dot}{39}
 \beamer@slide {fig:launch_dot}{40}
+\beamer@slide {fig:reduction}{42}
+\beamer@slide {fig:Noyau}{44}
+\beamer@slide {fig:managed_launch}{45}

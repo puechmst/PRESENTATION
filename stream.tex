@@ -76,7 +76,7 @@
     \centering
    \includegraphics[width=\textwidth]{host_dot.png}
     \caption{API asynchrone.}
-    \label{fig:launch_dot}
+    \label{fig:host_dot}
 \end{figure}
         \end{minipage} & 
         \begin{minipage}{0.45\textwidth}
@@ -120,7 +120,26 @@
         \item<+-> \texttt{cudaStreamTailLaunch}. La grille fille est lancée à la fin de l'exécution de la mère. Les enfants se synchronisent entre eux dans l'ordre
         d'appel.
     \end{itemize}
-    \item<+-> Un exemple sera abordé lors des travaux pratiques.
  \end{itemize} 
 \end{block}
+\end{frame}\begin{frame}
+    \frametitle{Parallélisme dynamique}
+    \begin{block}{Réduction parallèle}
+        \begin{tabular}{cc}
+             \begin{minipage}{0.45\textwidth}
+      \begin{figure}[htbp]
+         \centering
+        \includegraphics[width=\textwidth]{reduction.png}
+         \caption{Création de grilles filles.}
+         \label{fig:reduction}
+     \end{figure}
+             \end{minipage} & 
+             \begin{minipage}{0.45\textwidth}
+                 \begin{itemize}
+                     \item<+-> Le flux \texttt{cudaStreamTailLaunch} garantit l'ordre d'exécution.
+                     \item<+-> Il faut des options de compilation spéciales (code relogeable).
+                \end{itemize}
+             \end{minipage}
+     \end{tabular}
+     \end{block}
 \end{frame}

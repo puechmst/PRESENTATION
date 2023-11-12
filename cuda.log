@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  11 NOV 2023 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  12 NOV 2023 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,11 +643,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count354
 \l__pdf_internal_box=\box84
-) (./cuda.aux
-
-LaTeX Warning: Label `fig:launch_dot' multiply defined.
-
-)
+) (./cuda.aux)
 \openout1 = `cuda.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -814,7 +810,7 @@ Missing character: There is no ; in font nullfont!
 [2
 
  <./images/Bloc_marque_RF_ENAC_V1.png>] (./history.tex
-<images//Motorola_MC6845.jpg, id=55, 162.1257pt x 59.2614pt>
+<images//Motorola_MC6845.jpg, id=61, 162.1257pt x 59.2614pt>
 File: images//Motorola_MC6845.jpg Graphic file (type jpg)
 <use images//Motorola_MC6845.jpg>
 Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 16.
@@ -835,12 +831,12 @@ Missing character: There is no ; in font nullfont!
 [3
 
  <./images//Motorola_MC6845.jpg>]
-<images//ATI16800.jpg, id=64, 201.75375pt x 200.75pt>
+<images//ATI16800.jpg, id=70, 201.75375pt x 200.75pt>
 File: images//ATI16800.jpg Graphic file (type jpg)
 <use images//ATI16800.jpg>
 Package pdftex.def Info: images//ATI16800.jpg  used on input line 38.
 (pdftex.def)             Requested size: 90.78835pt x 90.33665pt.
-<images//ATI16899.jpg, id=65, 256.96pt x 200.75pt>
+<images//ATI16899.jpg, id=71, 256.96pt x 200.75pt>
 File: images//ATI16899.jpg Graphic file (type jpg)
 <use images//ATI16899.jpg>
 Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
@@ -850,7 +846,7 @@ Missing character: There is no ; in font nullfont!
 [4
 
  <./images//ATI16800.jpg> <./images//ATI16899.jpg>]
-<images//3drage.jpg, id=72, 337.26pt x 340.27126pt>
+<images//3drage.jpg, id=78, 337.26pt x 340.27126pt>
 File: images//3drage.jpg Graphic file (type jpg)
 <use images//3drage.jpg>
 Package pdftex.def Info: images//3drage.jpg  used on input line 54.
@@ -860,7 +856,7 @@ Missing character: There is no ; in font nullfont!
 [5
 
  <./images//3drage.jpg>]
-<images//Geforce3gpu.jpg, id=79, 441.65pt x 312.16624pt>
+<images//Geforce3gpu.jpg, id=85, 441.65pt x 312.16624pt>
 File: images//Geforce3gpu.jpg Graphic file (type jpg)
 <use images//Geforce3gpu.jpg>
 Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 69.
@@ -870,7 +866,7 @@ Missing character: There is no ; in font nullfont!
 [6
 
  <./images//Geforce3gpu.jpg>]
-<images//geforce8800.jpg, id=86, 421.575pt x 311.1625pt>
+<images//geforce8800.jpg, id=92, 421.575pt x 311.1625pt>
 File: images//geforce8800.jpg Graphic file (type jpg)
 <use images//geforce8800.jpg>
 Package pdftex.def Info: images//geforce8800.jpg  used on input line 86.
@@ -994,7 +990,7 @@ Missing character: There is no ; in font nullfont!
 [25
 
 ]
-<images//matmul.png, id=196, 525.46312pt x 156.585pt>
+<images//matmul.png, id=202, 525.46312pt x 156.585pt>
 File: images//matmul.png Graphic file (type png)
 <use images//matmul.png>
 Package pdftex.def Info: images//matmul.png  used on input line 162.
@@ -1004,7 +1000,7 @@ Missing character: There is no ; in font nullfont!
 [26
 
  <./images//matmul.png>]
-<images//device_matmul.png, id=203, 606.76688pt x 246.9225pt>
+<images//device_matmul.png, id=209, 606.76688pt x 246.9225pt>
 File: images//device_matmul.png Graphic file (type png)
 <use images//device_matmul.png>
 Package pdftex.def Info: images//device_matmul.png  used on input line 177.
@@ -1018,7 +1014,7 @@ Missing character: There is no ; in font nullfont!
 [28
 
 ]
-<images//matmul_simple.png, id=215, 845.40843pt x 597.73312pt>
+<images//matmul_simple.png, id=221, 845.40843pt x 597.73312pt>
 File: images//matmul_simple.png Graphic file (type png)
 <use images//matmul_simple.png>
 Package pdftex.def Info: images//matmul_simple.png  used on input line 212.
@@ -1032,7 +1028,7 @@ Missing character: There is no ; in font nullfont!
 [30
 
 ]
-<images//matmul_bloc.png, id=232, 845.40843pt x 597.73312pt>
+<images//matmul_bloc.png, id=238, 845.40843pt x 597.73312pt>
 File: images//matmul_bloc.png Graphic file (type png)
 <use images//matmul_bloc.png>
 Package pdftex.def Info: images//matmul_bloc.png  used on input line 267.
@@ -1042,7 +1038,7 @@ Missing character: There is no ; in font nullfont!
 [31
 
  <./images//matmul_bloc.png>]
-<images//produit_bloc.png, id=241, 511.9125pt x 429.10312pt>
+<images//produit_bloc.png, id=247, 511.9125pt x 429.10312pt>
 File: images//produit_bloc.png Graphic file (type png)
 <use images//produit_bloc.png>
 Package pdftex.def Info: images//produit_bloc.png  used on input line 289.
@@ -1078,7 +1074,7 @@ Missing character: There is no ; in font nullfont!
 [37
 
 ]
-<images//device_dot.png, id=274, 408.02437pt x 282.45525pt>
+<images//device_dot.png, id=280, 408.02437pt x 282.45525pt>
 File: images//device_dot.png Graphic file (type png)
 <use images//device_dot.png>
 Package pdftex.def Info: images//device_dot.png  used on input line 69.
@@ -1088,7 +1084,7 @@ Missing character: There is no ; in font nullfont!
 [38
 
  <./images//device_dot.png>]
-<images//host_dot.png, id=282, 509.5035pt x 438.13687pt>
+<images//host_dot.png, id=288, 509.5035pt x 438.13687pt>
 File: images//host_dot.png Graphic file (type png)
 <use images//host_dot.png>
 Package pdftex.def Info: images//host_dot.png  used on input line 89.
@@ -1098,17 +1094,12 @@ Missing character: There is no ; in font nullfont!
 [39
 
  <./images//host_dot.png>]
-<images//launch_dot.png, id=290, 509.80463pt x 438.438pt>
+<images//launch_dot.png, id=296, 509.80463pt x 438.438pt>
 File: images//launch_dot.png Graphic file (type png)
 <use images//launch_dot.png>
 Package pdftex.def Info: images//launch_dot.png  used on input line 109.
 (pdftex.def)             Requested size: 138.2795pt x 118.92172pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:launch_dot}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.109 \end{frame}
-                 
 Missing character: There is no ; in font nullfont!
 [40
 
@@ -1116,7 +1107,47 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [41
 
-])
+]
+<images//reduction.png, id=309, 442.65375pt x 338.76563pt>
+File: images//reduction.png Graphic file (type png)
+<use images//reduction.png>
+Package pdftex.def Info: images//reduction.png  used on input line 145.
+(pdftex.def)             Requested size: 138.2795pt x 105.8278pt.
+
+Missing character: There is no ; in font nullfont!
+[42
+
+ <./images//reduction.png>]) (./unified.tex
+\openout4 = `cuda.vrb'.
+
+ (./cuda.vrb)
+Missing character: There is no ; in font nullfont!
+[43
+
+]
+<images//managed_kernel.png, id=323, 289.68225pt x 155.07938pt>
+File: images//managed_kernel.png Graphic file (type png)
+<use images//managed_kernel.png>
+Package pdftex.def Info: images//managed_kernel.png  used on input line 33.
+(pdftex.def)             Requested size: 138.2795pt x 74.02786pt.
+
+Missing character: There is no ; in font nullfont!
+[44
+
+ <./images//managed_kernel.png>]
+\openout4 = `cuda.vrb'.
+
+ (./cuda.vrb
+<images//managed_launch.png, id=331, 316.7835pt x 284.56313pt>
+File: images//managed_launch.png Graphic file (type png)
+<use images//managed_launch.png>
+Package pdftex.def Info: images//managed_launch.png  used on input line 7.
+(pdftex.def)             Requested size: 138.2795pt x 124.21382pt.
+)
+Missing character: There is no ; in font nullfont!
+[45
+
+ <./images//managed_launch.png>])
 \tf@nav=\write6
 \openout6 = `cuda.nav'.
 
@@ -1130,25 +1161,22 @@ Missing character: There is no ; in font nullfont!
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `cuda.out' has not changed.
-(rerunfilecheck)             Checksum: 7A50E40253F901F3A49167E3A0EDED73;615.
+(rerunfilecheck)             Checksum: 6A8397E653A414F0636E7A1F392625D2;742.
  ) 
 Here is how much of TeX's memory you used:
- 28417 strings out of 478268
- 552077 string characters out of 5850345
- 982930 words of memory out of 5000000
- 45941 multiletter control sequences out of 15000+600000
+ 28480 strings out of 478268
+ 553158 string characters out of 5850345
+ 983281 words of memory out of 5000000
+ 45981 multiletter control sequences out of 15000+600000
  483664 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,26n,122p,498b,1683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
-Output written on cuda.pdf (41 pages, 1300735 bytes).
+Output written on cuda.pdf (45 pages, 1513330 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 98 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
