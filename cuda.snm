@@ -3,6 +3,7 @@
 \beamer@slide {fig:ati_rage}{5}
 \beamer@slide {fig:geforce3}{6}
 \beamer@slide {fig:gforce8}{7}
+\beamer@slide {tab:evo_nvidia}{8}
 \beamer@slide {fig:acces_matmul_simple}{28}
 \beamer@slide {eq:produit_bloc}{29}
 \beamer@slide {fig:acces_matmul_bloc}{30}

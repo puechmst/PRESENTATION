@@ -8,14 +8,13 @@
         \item<+-> Placées devant un nom de variable ou de fonction, elles permettent d'en spécifier l'emplacement.
         \item<+-> Le fichier devant être compilé avec nvcc doit avoir l'extension \texttt{.cu}.
         \item<+-> CMake reconnaît CUDA comme un langage à part entière, détecte l'environnement de développement NVIDIA
-        et génère les projets en conséquence.
+        ,et génère les projets en conséquence.
     \end{itemize}
 \end{block}
 \end{frame}
 \begin{frame}
     \frametitle{Directives d'exécution}
-\begin{block}{Avant la déclaration d'une fonction}
-    \renewcommand{\arraystretch}{3}
+    \renewcommand{\arraystretch}{2}
     \vskip 20pt
     \begin{tabular}{|c|c|}
         \hline
@@ -30,14 +29,11 @@
             La fonction est compilée pour le CPU et ne peut être appelée que depuis le CPU (comportement par défaut). 
         \end{minipage} \\ \hline
     \end{tabular}
-\end{block}
 
 \end{frame}
 \begin{frame}
     \frametitle{Directives de stockage}
-\begin{block}{Avant la déclaration d'une variable}
-    \renewcommand{\arraystretch}{2.5}
-    \vskip 20pt
+    \renewcommand{\arraystretch}{2}
     \begin{tabular}{|c|c|}
         \hline
         \rowcolor{lightgray} Directive & Effet \\ \hline
@@ -51,12 +47,12 @@
             La variable est stockée dans la mémoire partagée d'un multiprocesseur.
         \end{minipage} \\ \hline
     \end{tabular}
-\end{block}
 \end{frame}
 
 \begin{frame}
     \frametitle{Directives d'exécution}
 \begin{block}{Lancement d'un noyau}
+    \footnotesize
     \begin{itemize}
           \item<+-> Une fonction \texttt{fun} déclarée avec la directive \texttt{\_\_global\_\_} est éligible à une exécution parallèle 
   sur le GPU.
@@ -78,9 +74,9 @@
 \begin{block}{Dimensions de bloc}
     \begin{itemize}
           \item<+-> Un bloc de processus est affecté à un multiprocesseur et ne peut pas excéder une
-          certaine valeur.
+          certaine dimension.
           \item<+-> Pour des raisons de flexibilité lors du codage, une tel bloc peut être organisé en 
-          un tableau à une, deux ou trois dimensions. 
+          un tableau à un, deux ou trois indices. 
           \item<+-> La première coordonnée est particulière : elle peut recevoir l'intégralité du bloc. 
 \end{itemize}
 \end{block}
@@ -89,7 +85,7 @@
     \frametitle{Dimensions}
 \begin{block}{Dimensions de grille}
     \begin{itemize}
-          \item<+-> Les processus lancés sont d'abord organisés en blocs, puis les blocs en grille.
+          \item<+-> Les processus lancés sont d'abord répartis en blocs, puis les blocs en grille.
           \item<+-> Tout comme précédemment, les grilles possèdent trois dimensions, la première pouvant 
           adresser tous les blocs.
 \end{itemize}
@@ -103,7 +99,7 @@
           et de blocs.
           \item<+-> Sa signature est:
         {\footnotesize \nvhost \nvdevice \texttt{ cudaError\_t cudaDeviceGetAttribute ( int* value, cudaDeviceAttr attr, int  device )}}
-          \item<+-> De nombreuses caractéristiques du GPU référencé par l'attibut \texttt{device} peuvent être obtenues.
+          \item<+-> De nombreuses caractéristiques du GPU référencé par l'attribut \texttt{device} peuvent être obtenues.
           \item<+-> Pour les dimensions,  \texttt{attr} prendra les valeurs: 
           {\footnotesize \texttt{cudaDevAttrMaxBlockDimX,\dots,cudaDevAttrMaxGridDimX,\dots }}
     \end{itemize}
@@ -166,8 +162,9 @@ void host_matmul(int lda, int ncol, float* a,
 \begin{block}{Exécution}
    \begin{figure}
     \centering
-   \includegraphics[scale=0.5]{device_matmul.png}
+   \includegraphics[scale=0.45]{device_matmul.png}
    \end{figure}
+   \footnotesize
    \begin{itemize}
     \item<+-> La fonction \texttt{cudaMalloc} permet d'allouer de la mémoire sur le GPU.
     \item<+-> Elle est libérée par \texttt{cudaFree}.
@@ -181,8 +178,8 @@ void host_matmul(int lda, int ncol, float* a,
 \begin{block}{Vitesse d'exécution}
    \begin{itemize}
     \item<+-> Deux matrices 1000x1000 sont multipliées.
-    \item<+-> Sur la configuration de référence, on relève, pour le GPU, une performance de 55 GFlops.
-    \item<+-> Pour le CPU, elle est de 1 Gflops.
+    \item<+-> Sur la configuration de référence, on relève, pour le GPU, une performance de 157 GFlops.
+    \item<+-> Pour le CPU, elle est de 2 Gflops.
     \item<+-> Peut-on améliorer la vitesse de calcul ?
    \end{itemize}
 \end{block}
@@ -214,6 +211,7 @@ void host_matmul(int lda, int ncol, float* a,
 \begin{frame}
     \frametitle{Produit matriciel par blocs}
 \begin{block}{améliorer l'utilisation des données}
+    \footnotesize
    \begin{itemize}
     \item<+-> Le produit de deux matrices peut s'effectuer par blocs:
     \begin{equation}
@@ -293,8 +291,9 @@ void host_matmul(int lda, int ncol, float* a,
  \begin{itemize}
     \item<+-> Avec une dimension de bloc de 8 (soit 64 processus), on atteint 350 Gflops sur des
     matrices de taille 10000.
-    \item<+-> En comparaison, le CPU ne dépasse pas 2 GFlops. 
-    \item<+-> Il est possible d'optimiser encore le code, en particulier en améliorant la gestion des blocs
+    \item<+-> En comparaison, le CPU ne dépasse pas 2 GFlops, valeur à relativiser, car aucune optimisation n'a
+    été appliquée.
+    \item<+-> Il est possible d'accélérer encore le code, en particulier en améliorant la gestion des blocs
     situés en périphérie de la grille.
     \item<+-> Le produit matriciel est toutefois un exemple simple, le code GPU étant assez similaire à son 
     homologue CPU.

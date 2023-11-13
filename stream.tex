@@ -29,9 +29,9 @@
 \begin{block}{Grilles de calcul asynchrones}
     \begin{itemize}
         \item<+-> Le dernier paramètre lors du lancement d'une grille de calcul est un flux d'exécution.
-        \item<+-> Pour exécuter un noyau \texttt{kernel} dans le flux \texttt(stream) on écrira:
+        \item<+-> Pour exécuter un noyau \texttt{kernel} dans le flux \texttt{stream} on écrira:
         \texttt{kernel<<<grid,block,dynSharedSize,stream>>>(args)}.
-        \item<+-> Les opérations d'un flux se synchronisent sur le flux par défaut, qui est utilisé lorsque le paramètre de flux est absent. Ce comportement peut toutefois être changé.
+        \item<+-> Les opérations d'un flux se synchronisent sur le flux par défaut, qui est utilisé lorsque le paramètre correspondant est absent. Ce comportement peut toutefois être changé.
     \end{itemize}
 \end{block}
 \end{frame}

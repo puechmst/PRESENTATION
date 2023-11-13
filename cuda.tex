@@ -1,9 +1,11 @@
 \documentclass[handout]{beamer}
+\usetheme{frankfurt}
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
 \usepackage{subcaption}
 \usepackage{colortbl}
 \usepackage{listings}
+\usepackage[french]{babel}
 \graphicspath{{./}{images/}}
 \usetheme{default}
 \title{Programmation CUDA}
@@ -19,10 +21,10 @@
   \begin{tikzpicture}
     \ifnum\thepage=1%
   \useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight); 
-    \pgftext[at=\pgfpoint{0}{\paperheight-0.155\paperwidth},left,base]{\pgfuseimage{bloc_enac}};
+    \pgftext[at=\pgfpoint{0}{\paperheight-0.155\paperwidth},left]{\pgfuseimage{bloc_enac}};
     \else
 \useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight); 
-    \pgftext[at=\pgfpoint{0}{\paperheight-40pt},left,base]{\pgfuseimage{bloc2_enac}};
+    \pgftext[at=\pgfpoint{0}{\paperheight-40pt},left]{\pgfuseimage{bloc2_enac}};
     \fi
 
   \end{tikzpicture}
@@ -33,6 +35,8 @@
   \rightline{\insertframetitle}
  \fi   
 }
+
+
 
 \begin{document}
 %1

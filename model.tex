@@ -5,10 +5,10 @@
 \begin{block}{Les multiprocesseurs de flux (SM)}
    \begin{itemize}
     \item<+-> Héritier du pipeline graphique, le multiprocesseur de flux ("Streaming multiprocessor", SM) 
-    est une entité de traitement comportant des séquenceurs, plusieurs unités de traitement numérique et une mémoire locale.
+    est une entité de traitement comportant des séquenceurs, plusieurs unités de traitement numérique, et une mémoire locale.
     \item<+-> Un processeur graphique (GPU) regroupe plusieurs multiprocesseurs. 
     \item<+-> Les multiprocesseurs exécutent des blocs de processus de façon \textbf{indépendante} et peuvent accéder à
-    une mémoire partagée.
+    une mémoire globale.
     \item<+-> Pour un développeur sur une architecture conventionnelle, un multiprocesseur s'apparente à un c{\oe}ur de calcul
     vectoriel.
    \end{itemize} 
@@ -37,9 +37,9 @@
     \item<+-> Le nombre d'unités de calcul par multiprocesseur dépend des générations de cartes. Pour l'architecture 
     Ampère, on trouve 64 ou 128 unités flottantes 32bits, 32 ou 2 unités flottantes 64bits, 64 unités de calcul entier
     sur 32 bits, 16 unités spéciales (fonctions transcendantes), 4 cœurs de calcul tensoriel et 4 ordonnanceurs.
-    \item<+-> Un ordonnanceur est affecté à une chaîne. Tous les processus de la chaîne exécutent la même Instruction
+    \item<+-> Un ordonnanceur est affecté à une chaîne. Tous les processus de la chaîne exécutent la même instruction
     au même moment.
-    \item<+-> En cas d'instruction conditionnelle, il peut y avoir divergence de code à l'intérieur d'une chaîne, ce qui se traduit par la 
+    \item<+-> En cas de branchement, il peut y avoir divergence de code à l'intérieur d'une chaîne, ce qui se traduit par la 
     mise en attente d'un ou plusieurs processus dont l'exécution se poursuivra après celle de la branche principale. 
    \end{itemize} 
 \end{block}
@@ -67,7 +67,7 @@
     chaque processus d'une chaîne accède à sa propre banque. La capacité de cette mémoire varie entre 64kB et 228kB 
     selon les générations.
     \item<+-> Les multiprocesseurs partagent une mémoire globale, plus lente, mais en mesure de stocker beaucoup plus 
-    de données. Les cartes de dernière génération, comme la RX4090, embarquent 24Gb de RAM.
+    de données. Les cartes de dernière génération, comme la RTX4090, embarquent 24Gb de RAM.
     \item<+-> L'architecture 9.0 introduit la notion de cluster de blocs et de mémoire partagée distribuée.
    \end{itemize} 
 \end{block}
@@ -86,17 +86,16 @@
 \begin{frame}{\`A retenir}
 \begin{block}{Le GPU}
    \begin{itemize}
-    \item<+-> Un bloc est affecté à un multiprocesseur, les processus d'une même chaîne exécutent la même Instruction
+    \item<+-> Un bloc est affecté à un multiprocesseur, les processus d'une même chaîne exécutent la même instruction
     en parallèle.
     \item<+-> Il faut donc penser avant tout en termes de chaînes (32 processus).
-    \item<+-> Un branchement dans un même chaîne entraîne l'inactivation temporaire de processus.
    \end{itemize} 
 \end{block}
 \begin{block}{La mémoire}
   \begin{itemize}
    \item<+-> Privilégier l'utilisation de la mémoire partagée, bien plus rapide que la mémoire globale.
    \item<+-> S'efforcer d'avoir des accès contigus pour les processus d'une même chaîne.
-   \item<+-> Penser à utiliser la mémoire des textures si nécessaire.
+   \item<+-> Utiliser la mémoire des textures si nécessaire.
   \end{itemize} 
 \end{block}
 \end{frame}

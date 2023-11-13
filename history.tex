@@ -18,7 +18,7 @@
 \begin{frame}
   \frametitle{L'évolution des cartes graphiques}
 \begin{block}{Contrôleurs graphiques}
-  Apparus vers la fin des années 1980, ils apportent des fonctionnalités graphiques, telles le tracé de segment, 
+  Apparus vers la fin des années 1980, ils apportent des fonctionnalités graphiques, comme le tracé de segment, 
   et gèrent une mémoire distincte de celle de l'unité centrale.
    \begin{figure}[htbp]
     \centering
@@ -46,7 +46,7 @@
     transformation de sommets, projection, traçage.
     \begin{figure}[htbp]
         \centering
-       \includegraphics[scale=0.2]{3drage.jpg} 
+       \includegraphics[scale=0.15]{3drage.jpg} 
         \caption{Contrôleur 3D ATI Rage.}
         \label{fig:ati_rage}
     \end{figure}
@@ -56,11 +56,11 @@
 \begin{frame}
   \frametitle{L'évolution des cartes graphiques}
 \begin{block}{Les processeurs progammables}
-    En 2001, la société NVIDIA introduit sur le marché la gamme de processeurs graphiques
+    En 2001, la société NVIDIA introduit sur le marché les processeurs graphiques
     GeForce 3 qui permettent de programmer les étapes du pipeline graphique. 
     \begin{figure}[htbp]
         \centering
-       \includegraphics[scale=0.3]{Geforce3gpu.jpg} 
+       \includegraphics[scale=0.25]{Geforce3gpu.jpg} 
         \caption{Contrôleur 3D programmable.}
         \label{fig:geforce3}
     \end{figure}
@@ -71,14 +71,14 @@
 \begin{frame}
   \frametitle{L'évolution des cartes graphiques}
 \begin{block}{Le calcul}
-    Fin 2006, NVIDIA lance la gamme GeForce 8 et l'environnement de développement CUDA qui
+    Fin 2006, NVIDIA introduit l'environnement de développement CUDA qui
     permet d'exploiter la puissance de calcul des cartes graphiques pour des applications générales.
-    Les performances théoriques sont impressionnantes : de l'ordre de celles obtenues avec un 
-    superordinateur, mais  pour une enveloppe énergétique bien inférieure.
+    Les performances théoriques sont comparables à celles d' un 
+    superordinateur, mais  pour une enveloppe énergétique et un coût bien inférieurs.
 
     \begin{figure}[htbp]
         \centering
-       \includegraphics[scale=0.3]{geforce8800.jpg} 
+       \includegraphics[scale=0.2]{geforce8800.jpg} 
         \caption{Carte graphique CUDA.}
         \label{fig:gforce8}
     \end{figure}
@@ -87,9 +87,9 @@
 
 \begin{frame}
   \frametitle{Synthèse de l'évolution des cartes NVIDIA}
-{\footnotesize  
-\hspace{-1.8cm}
-            \begin{tabular}{p{1cm}p{2cm}p{3cm}p{1cm}p{1cm}p{2cm}}
+\begin{table}
+\footnotesize  \centering
+            \begin{tabular}{cccccc}
             \rowcolor{lightgray}\textbf{Année} & \textbf{Carte} & \textbf{Architecture} & \textbf{Cœurs} & \textbf{RAM} & \textbf{Puissance} \\\hline
             1995 & NV1 & Dizaines de µm & ?  & 4 Mo & 2 Watts \\
             ... & ... & ...  & ... & ... & ...\\
@@ -99,6 +99,7 @@
             2020 & RTX 3090 & Ampere 8 nm & 10 496 & 24 Go & 350 W \\
 
             2022 & RTX 4090 & Ada Lovelace 5 nm & 18 000  & 24 Go & 450-600 W \\ 
-            \end{tabular}}
-
+            \end{tabular}
+          \caption{Évolution des cartes NVIDIA.}\label{tab:evo_nvidia}
+          \end{table}
 \end{frame}
