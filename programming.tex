@@ -7,8 +7,7 @@
         compilateur de NVIDIA.
         \item<+-> Placées devant un nom de variable ou de fonction, elles permettent d'en spécifier l'emplacement.
         \item<+-> Le fichier devant être compilé avec nvcc doit avoir l'extension \texttt{.cu}.
-        \item<+-> CMake reconnaît CUDA comme un langage à part entière, détecte l'environnement de développement NVIDIA
-        ,et génère les projets en conséquence.
+        \item<+-> CMake reconnaît CUDA comme un langage à part entière, détecte l'environnement de développement NVIDIA, et génère les projets en conséquence.
     \end{itemize}
 \end{block}
 \end{frame}
@@ -75,7 +74,7 @@
     \begin{itemize}
           \item<+-> Un bloc de processus est affecté à un multiprocesseur et ne peut pas excéder une
           certaine dimension.
-          \item<+-> Pour des raisons de flexibilité lors du codage, une tel bloc peut être organisé en 
+          \item<+-> Pour des raisons de flexibilité lors du codage, un tel bloc peut être organisé en 
           un tableau à un, deux ou trois indices. 
           \item<+-> La première coordonnée est particulière : elle peut recevoir l'intégralité du bloc. 
 \end{itemize}
