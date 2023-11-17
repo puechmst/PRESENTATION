@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  13 NOV 2023 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.26)  14 NOV 2023 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex"
-(c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex
+**"c:/Users/puech/OneDrive - enac.fr/CODE/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex"
+(c:/Users/puech/OneDrive - enac.fr/CODE/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (c:/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -1212,14 +1212,14 @@ Package rerunfilecheck Info: File `cuda.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  30686 strings out of 478268
- 602598 string characters out of 5850345
- 1069401 words of memory out of 5000000
+ 602613 string characters out of 5850345
+ 1070401 words of memory out of 5000000
  48153 multiletter control sequences out of 15000+600000
  484065 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,27n,122p,501b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,27n,122p,506b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
-Output written on cuda.pdf (44 pages, 1665656 bytes).
+Output written on cuda.pdf (44 pages, 1665632 bytes).
 PDF statistics:
  3079 PDF objects out of 3580 (max. 8388607)
  2634 compressed objects within 27 object streams
