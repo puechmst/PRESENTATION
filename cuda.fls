@@ -1,8 +1,8 @@
-PWD c:/Users/puech/OneDrive - enac.fr/CODE/ENSEIGNEMENT/Cours_CUDA/PRESENTATION
+PWD c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/puech/OneDrive - enac.fr/CODE/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex
+INPUT c:/Users/puech/OneDrive - enac.fr/ENSEIGNEMENT/Cours_CUDA/PRESENTATION/cuda.tex
 OUTPUT cuda.log
 INPUT c:/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT c:/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1438,6 +1438,7 @@ INPUT ./history.tex
 INPUT history.tex
 INPUT ./history.tex
 INPUT history.tex
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./images//Motorola_MC6845.jpg
 INPUT ./images//Motorola_MC6845.jpg
 INPUT images//Motorola_MC6845.jpg
@@ -1494,6 +1495,11 @@ INPUT ./images//3drage.jpg
 INPUT images//3drage.jpg
 INPUT ./images//3drage.jpg
 INPUT ./images//3drage.jpg
+INPUT ./images//ExemplePipelineSimple.jpg
+INPUT ./images//ExemplePipelineSimple.jpg
+INPUT images//ExemplePipelineSimple.jpg
+INPUT ./images//ExemplePipelineSimple.jpg
+INPUT ./images//ExemplePipelineSimple.jpg
 INPUT ./images//Geforce3gpu.jpg
 INPUT ./images//Geforce3gpu.jpg
 INPUT images//Geforce3gpu.jpg
@@ -1511,6 +1517,7 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
@@ -1520,7 +1527,6 @@ INPUT ./model.tex
 INPUT model.tex
 INPUT ./model.tex
 INPUT model.tex
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./programming.tex
 INPUT programming.tex
 INPUT ./programming.tex
