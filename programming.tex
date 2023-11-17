@@ -19,7 +19,7 @@
         \hline
         \rowcolor{lightgray} Directive & Effet \\ \hline
         \_\_global\_\_ & \begin{minipage}{0.8\textwidth}
-            La fonction est un noyau. Elle est compilée pour le GPU, mais peut être appelée depuis le CPU. 
+            La fonction est un \bf{noyau}. Elle est compilée pour le GPU, mais peut être appelée depuis le CPU. 
         \end{minipage} \\ \hline
         \_\_device\_\_ & \begin{minipage}{0.8\textwidth}
             La fonction est compilée pour le GPU et ne peut être appelée que depuis le GPU. 
@@ -37,13 +37,13 @@
         \hline
         \rowcolor{lightgray} Directive & Effet \\ \hline
         \_\_device\_\_ & \begin{minipage}{0.8\textwidth}
-            La variable est stockée dans la mémoire globale. 
+            La variable est stockée dans la \bf{mémoire globale} (du GPU). 
         \end{minipage} \\ \hline
         \_\_constant\_\_ & \begin{minipage}{0.8\textwidth}
-            La variable est stockée dans la mémoire globale des constantes.
+            La variable est stockée dans la \bf{mémoire globale} des constantes.
         \end{minipage} \\ \hline
         \_\_shared\_\_ & \begin{minipage}{0.8\textwidth}
-            La variable est stockée dans la mémoire partagée d'un multiprocesseur.
+            La variable est stockée dans la \bf{mémoire partagée} d'un multiprocesseur.
         \end{minipage} \\ \hline
     \end{tabular}
 \end{frame}
@@ -114,7 +114,7 @@ void host_matmul(int lda, int ncol, float* a,
 	double s;
 
 	for (int i = 0 ; i < lda; i++) {
-		for (int j = 0 ; j < k ; j++) {
+		for (int j = 0 ; j < ncol ; j++) {
 			s = 0.0;
 			for (int k = 0; k < ldb; k++)
 				s += a[i * lda + k] * b[k * ldb + j];
