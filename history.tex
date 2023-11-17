@@ -62,13 +62,6 @@
 \begin{frame}
   \frametitle{L'évolution des cartes graphiques}
 \begin{block}{Les premiers pipeline graphique.}
-
-        \begin{enumerate}
-            \item transformation de sommets;
-            \item projection;
-            \item traçage.
-        \end{enumerate}
-
     \begin{figure}[htbp]
         \centering
        \includegraphics[scale=0.15]{ExemplePipelineSimple.jpg} 
@@ -102,6 +95,31 @@
     permet d'exploiter la puissance de calcul des cartes graphiques pour des applications générales.
     Les performances théoriques sont comparables à celles d' un 
     superordinateur, mais  pour une enveloppe énergétique et un coût bien inférieurs.
+
+    \begin{figure}[htbp]
+        \centering
+       \includegraphics[scale=0.2]{geforce8800.jpg} 
+        \caption{Carte graphique CUDA.}
+        \label{fig:gforce8}
+    \end{figure}
+\end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{L'évolution des cartes graphiques}
+\begin{block}{Domaines d'applications des GPU}
+
+ \begin{itemize}
+    \item Initialement : synthèse d'images
+    \item Applications généralistes, exemples :
+     \begin{itemize}
+        \item Traitement d'images
+        \item FFT
+        \item Simulation : par éléments finis : système de particule ; etc.
+        \item Algèbre linéaire, optimisation
+        \item Algorithmes de trie, de recherche ....
+    \end{itemize}
+\end{itemize}   
 
     \begin{figure}[htbp]
         \centering
