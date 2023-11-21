@@ -4,8 +4,8 @@
     \frametitle{Architecture matérielle}
 \begin{block}{Les multiprocesseurs de flux (SM)}
    \begin{itemize}
-    \item<+-> Héritier du pipeline graphique, le multiprocesseur de flux ("Streaming multiprocessor", SM) 
-    est une entité de traitement comportant des séquenceurs, plusieurs unités de traitement numérique, et une mémoire locale.
+    \item<+-> Héritier du pipeline graphique, le \textbf{multiprocesseur de flux} ("Streaming multiprocessor", SM) 
+    est une entité de traitement comportant des \textbf{séquenceurs}, plusieurs \textbf{unités de traitement numérique}, et une \textbf{mémoire locale}.
     \item<+-> Un processeur graphique (GPU) regroupe plusieurs multiprocesseurs. 
     \item<+-> Les multiprocesseurs exécutent du code de façon \textbf{indépendante} et peuvent accéder à
     une mémoire globale.
@@ -47,22 +47,6 @@
 
 \begin{frame}
     \frametitle{Architecture matérielle}
-\begin{block}{Les unités de calcul}
-Schéma 1
-   
-\end{block}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Architecture matérielle}
-\begin{block}{Les unités de calcul}
-Schéma 2 3D
-   
-\end{block}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Architecture matérielle}
 \begin{block}{L'ordonnancement des processus}
    \begin{itemize}
     \item<+-> Le code à exécuter sur le GPU est appelé noyau ("kernel".)
@@ -75,6 +59,19 @@ Schéma 2 3D
 \end{block}
 \end{frame}
 %4
+
+\begin{frame}
+    \frametitle{Architecture matérielle}
+\begin{block}{L'ordonnancement des processus}
+    \begin{figure}[htbp]
+        \centering
+         \includegraphics[scale=0.3]{images/ProgrammingModel.jpg} 
+        \caption{Modèle de programmation.}
+        \label{fig:gforce8}
+    \end{figure}
+\end{block}
+\end{frame}
+
 \begin{frame}
     \frametitle{Architecture matérielle}
 \begin{block}{La mémoire}
@@ -102,8 +99,13 @@ Schéma 2 3D
 \end{frame}
 
 \begin{frame}{Les mémoires spécialisées}
-\begin{block}{La mémoire de textures}
-Schéma
+\begin{block}{Architecture d'une grille.}
+    \begin{figure}[htbp]
+        \centering
+         \includegraphics[scale=0.2]{images/ArchitectureGridCUDA.jpg} 
+        \caption{Architecture d'une grille.}
+        \label{fig:gforce8}
+    \end{figure}
 \end{block}
 \end{frame}
 
