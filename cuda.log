@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  21 NOV 2023 07:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  24 NOV 2023 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,14 +853,14 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                of your document; reported on input line 41.
 
 (./cuda.nav)
-Overfull \hbox (12.47586pt too wide) detected at line 41
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) detected at line 41
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [1{e:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -868,14 +868,14 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
  <./images/Bloc_marque_RF_ENAC_V2.png>] (./cuda.toc)
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [2
 
  <./images/Bloc_marque_RF_ENAC_V1.png>] (./history.tex
-<images//Motorola_MC6845.jpg, id=275, 162.1257pt x 59.2614pt>
+<images//Motorola_MC6845.jpg, id=283, 162.1257pt x 59.2614pt>
 File: images//Motorola_MC6845.jpg Graphic file (type jpg)
 <use images//Motorola_MC6845.jpg>
 Package pdftex.def Info: images//Motorola_MC6845.jpg  used on input line 16.
@@ -894,19 +894,19 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 )
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [3
 
  <./images//Motorola_MC6845.jpg>]
-<images//ATI16800.jpg, id=348, 201.75375pt x 200.75pt>
+<images//ATI16800.jpg, id=359, 201.75375pt x 200.75pt>
 File: images//ATI16800.jpg Graphic file (type jpg)
 <use images//ATI16800.jpg>
 Package pdftex.def Info: images//ATI16800.jpg  used on input line 38.
 (pdftex.def)             Requested size: 90.78835pt x 90.33665pt.
-<images//ATI16899.jpg, id=349, 256.96pt x 200.75pt>
+<images//ATI16899.jpg, id=360, 256.96pt x 200.75pt>
 File: images//ATI16899.jpg Graphic file (type jpg)
 <use images//ATI16899.jpg>
 Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
@@ -914,14 +914,14 @@ Package pdftex.def Info: images//ATI16899.jpg  used on input line 38.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [4
 
  <./images//ATI16800.jpg> <./images//ATI16899.jpg>]
-<images//3drage.jpg, id=419, 337.26pt x 340.27126pt>
+<images//3drage.jpg, id=431, 337.26pt x 340.27126pt>
 File: images//3drage.jpg Graphic file (type jpg)
 <use images//3drage.jpg>
 Package pdftex.def Info: images//3drage.jpg  used on input line 60.
@@ -932,29 +932,32 @@ Overfull \vbox (6.39262pt too high) detected at line 60
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [5
 
  <./images//3drage.jpg>]
-<images//ExemplePipelineSimple.jpg, id=487, 662.475pt x 717.68124pt>
+<images//ExemplePipelineSimple.jpg, id=501, 662.475pt x 717.68124pt>
 File: images//ExemplePipelineSimple.jpg Graphic file (type jpg)
 <use images//ExemplePipelineSimple.jpg>
 Package pdftex.def Info: images//ExemplePipelineSimple.jpg  used on input line 72.
-(pdftex.def)             Requested size: 99.36696pt x 107.64754pt.
+(pdftex.def)             Requested size: 165.61835pt x 179.41986pt.
+
+Overfull \vbox (7.84064pt too high) detected at line 72
+ []
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [6
 
  <./images//ExemplePipelineSimple.jpg>]
-<images//Geforce3gpu.jpg, id=554, 441.65pt x 312.16624pt>
+<images//Geforce3gpu.jpg, id=570, 441.65pt x 312.16624pt>
 File: images//Geforce3gpu.jpg Graphic file (type jpg)
 <use images//Geforce3gpu.jpg>
 Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 89.
@@ -962,14 +965,14 @@ Package pdftex.def Info: images//Geforce3gpu.jpg  used on input line 89.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [7
 
  <./images//Geforce3gpu.jpg>]
-<images//geforce8800.jpg, id=623, 421.575pt x 311.1625pt>
+<images//geforce8800.jpg, id=641, 421.575pt x 311.1625pt>
 File: images//geforce8800.jpg Graphic file (type jpg)
 <use images//geforce8800.jpg>
 Package pdftex.def Info: images//geforce8800.jpg  used on input line 106.
@@ -977,8 +980,8 @@ Package pdftex.def Info: images//geforce8800.jpg  used on input line 106.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [8
@@ -986,8 +989,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
  <./images//geforce8800.jpg>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [9
@@ -1003,8 +1006,8 @@ Overfull \hbox (14.13907pt too wide) in paragraph at lines 142--142
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [10
@@ -1012,8 +1015,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]) (./model.tex
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [11
@@ -1021,8 +1024,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [12
@@ -1030,8 +1033,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [13
@@ -1039,26 +1042,35 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [14
 
 ]
+<images//ProgrammingModel.jpg, id=1109, 617.30624pt x 634.37pt>
+File: images//ProgrammingModel.jpg Graphic file (type jpg)
+<use images//ProgrammingModel.jpg>
+Package pdftex.def Info: images//ProgrammingModel.jpg  used on input line 73.
+(pdftex.def)             Requested size: 185.1933pt x 190.31245pt.
+
+Overfull \vbox (15.93324pt too high) detected at line 73
+ []
+
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [15
 
-]
+ <./images//ProgrammingModel.jpg>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [16
@@ -1066,47 +1078,47 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [17
 
 ]
+<images//ArchitectureGridCUDA.jpg, id=1311, 954.56625pt x 866.23625pt>
+File: images//ArchitectureGridCUDA.jpg Graphic file (type jpg)
+<use images//ArchitectureGridCUDA.jpg>
+Package pdftex.def Info: images//ArchitectureGridCUDA.jpg  used on input line 110.
+(pdftex.def)             Requested size: 190.90987pt x 173.24417pt.
+
+Overfull \vbox (1.66495pt too high) detected at line 110
+ []
+
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [18
 
-]
+ <./images//ArchitectureGridCUDA.jpg>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [19
 
-]
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
- []
-
-[20
-
 ]) (./programming.tex
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[21
+[20
 
 ]
 Overfull \hbox (7.43347pt too wide) in paragraph at lines 32--32
@@ -1115,11 +1127,11 @@ Overfull \hbox (7.43347pt too wide) in paragraph at lines 32--32
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[22
+[21
 
 ]
 Overfull \hbox (18.53557pt too wide) in paragraph at lines 49--49
@@ -1128,8 +1140,17 @@ Overfull \hbox (18.53557pt too wide) in paragraph at lines 49--49
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[22
+
+]
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [23
@@ -1137,8 +1158,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [24
@@ -1146,8 +1167,8 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [25
@@ -1155,20 +1176,11 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
 ]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [26
-
-]
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
- []
-
-[27
 
 ]
 \openout4 = `cuda.vrb'.
@@ -1198,23 +1210,23 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 )
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[27
+
+]
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [28
 
 ]
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
- []
-
-[29
-
-]
-<images//matmul.png, id=2048, 525.46312pt x 156.585pt>
+<images//matmul.png, id=2053, 525.46312pt x 156.585pt>
 File: images//matmul.png Graphic file (type png)
 <use images//matmul.png>
 Package pdftex.def Info: images//matmul.png  used on input line 157.
@@ -1222,14 +1234,14 @@ Package pdftex.def Info: images//matmul.png  used on input line 157.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[30
+[29
 
  <./images//matmul.png>]
-<images//device_matmul.png, id=2115, 606.76688pt x 246.9225pt>
+<images//device_matmul.png, id=2122, 606.76688pt x 246.9225pt>
 File: images//device_matmul.png Graphic file (type png)
 <use images//device_matmul.png>
 Package pdftex.def Info: images//device_matmul.png  used on input line 173.
@@ -1237,23 +1249,23 @@ Package pdftex.def Info: images//device_matmul.png  used on input line 173.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[31
+[30
 
  <./images//device_matmul.png>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[32
+[31
 
 ]
-<images//matmul_simple.png, id=2250, 845.40843pt x 597.73312pt>
+<images//matmul_simple.png, id=2261, 845.40843pt x 597.73312pt>
 File: images//matmul_simple.png Graphic file (type png)
 <use images//matmul_simple.png>
 Package pdftex.def Info: images//matmul_simple.png  used on input line 208.
@@ -1261,23 +1273,23 @@ Package pdftex.def Info: images//matmul_simple.png  used on input line 208.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[33
+[32
 
  <./images//matmul_simple.png>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[34
+[33
 
 ]
-<images//matmul_bloc.png, id=2388, 845.40843pt x 597.73312pt>
+<images//matmul_bloc.png, id=2403, 845.40843pt x 597.73312pt>
 File: images//matmul_bloc.png Graphic file (type png)
 <use images//matmul_bloc.png>
 Package pdftex.def Info: images//matmul_bloc.png  used on input line 264.
@@ -1285,14 +1297,14 @@ Package pdftex.def Info: images//matmul_bloc.png  used on input line 264.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[35
+[34
 
  <./images//matmul_bloc.png>]
-<images//produit_bloc.png, id=2453, 511.9125pt x 429.10312pt>
+<images//produit_bloc.png, id=2470, 511.9125pt x 429.10312pt>
 File: images//produit_bloc.png Graphic file (type png)
 <use images//produit_bloc.png>
 Package pdftex.def Info: images//produit_bloc.png  used on input line 286.
@@ -1300,26 +1312,38 @@ Package pdftex.def Info: images//produit_bloc.png  used on input line 286.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[36
+[35
 
  <./images//produit_bloc.png>]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[37
+[36
 
 ]) (./stream.tex
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[37
+
+]
+\openout4 = `cuda.vrb'.
+
+ (./cuda.vrb)
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [38
@@ -1330,35 +1354,23 @@ Overfull \hbox (12.47586pt too wide) has occurred while \output is active
  (./cuda.vrb)
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [39
 
 ]
-\openout4 = `cuda.vrb'.
-
- (./cuda.vrb)
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [40
 
 ]
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
- []
-
-[41
-
-]
-<images//device_dot.png, id=2851, 408.02437pt x 282.45525pt>
+<images//device_dot.png, id=2880, 408.02437pt x 282.45525pt>
 File: images//device_dot.png Graphic file (type png)
 <use images//device_dot.png>
 Package pdftex.def Info: images//device_dot.png  used on input line 69.
@@ -1366,14 +1378,14 @@ Package pdftex.def Info: images//device_dot.png  used on input line 69.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[42
+[41
 
  <./images//device_dot.png>]
-<images//host_dot.png, id=2919, 509.5035pt x 438.13687pt>
+<images//host_dot.png, id=2951, 509.5035pt x 438.13687pt>
 File: images//host_dot.png Graphic file (type png)
 <use images//host_dot.png>
 Package pdftex.def Info: images//host_dot.png  used on input line 89.
@@ -1381,14 +1393,14 @@ Package pdftex.def Info: images//host_dot.png  used on input line 89.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
-[43
+[42
 
  <./images//host_dot.png>]
-<images//launch_dot.png, id=2989, 509.80463pt x 438.438pt>
+<images//launch_dot.png, id=3021, 509.80463pt x 438.438pt>
 File: images//launch_dot.png Graphic file (type png)
 <use images//launch_dot.png>
 Package pdftex.def Info: images//launch_dot.png  used on input line 109.
@@ -1396,12 +1408,111 @@ Package pdftex.def Info: images//launch_dot.png  used on input line 109.
 
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (12.47586pt too wide) has occurred while \output is active
-  [] [][][][][][][][][] [][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[43
+
+ <./images//launch_dot.png>]
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
  []
 
 [44
 
- <./images//launch_dot.png>
-!pdfTeX error: pdflatex.exe: fflush() failed (Invalid argument)
- ==> Fatal error occurred, no output PDF file produced!
+]
+<images//reduction.png, id=3161, 442.65375pt x 338.76563pt>
+File: images//reduction.png Graphic file (type png)
+<use images//reduction.png>
+Package pdftex.def Info: images//reduction.png  used on input line 145.
+(pdftex.def)             Requested size: 138.2795pt x 105.8278pt.
+
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[45
+
+ <./images//reduction.png>]) (./unified.tex
+\openout4 = `cuda.vrb'.
+
+ (./cuda.vrb)
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[46
+
+]
+<images//managed_kernel.png, id=3299, 289.68225pt x 155.07938pt>
+File: images//managed_kernel.png Graphic file (type png)
+<use images//managed_kernel.png>
+Package pdftex.def Info: images//managed_kernel.png  used on input line 33.
+(pdftex.def)             Requested size: 138.2795pt x 74.02786pt.
+
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[47
+
+ <./images//managed_kernel.png>]
+\openout4 = `cuda.vrb'.
+
+ (./cuda.vrb
+<images//managed_launch.png, id=3369, 316.7835pt x 284.56313pt>
+File: images//managed_launch.png Graphic file (type png)
+<use images//managed_launch.png>
+Package pdftex.def Info: images//managed_launch.png  used on input line 7.
+(pdftex.def)             Requested size: 138.2795pt x 124.21382pt.
+)
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.03209pt too wide) has occurred while \output is active
+  [] [][][][][][][][][] [][][][][][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][][][] [][][][]  
+ []
+
+[48
+
+ <./images//managed_launch.png>])
+\tf@nav=\write6
+\openout6 = `cuda.nav'.
+
+\tf@toc=\write7
+\openout7 = `cuda.toc'.
+
+\tf@snm=\write8
+\openout8 = `cuda.snm'.
+
+ (./cuda.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `cuda.out' has not changed.
+(rerunfilecheck)             Checksum: 3D80EB104ECC40BABF60A7BA4002889C;803.
+ ) 
+Here is how much of TeX's memory you used:
+ 30790 strings out of 478238
+ 605740 string characters out of 5847939
+ 1073765 words of memory out of 5000000
+ 48273 multiletter control sequences out of 15000+600000
+ 484359 words of font info for 83 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,27n,122p,504b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{e:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
+Output written on cuda.pdf (48 pages, 1920511 bytes).
+PDF statistics:
+ 3543 PDF objects out of 3580 (max. 8388607)
+ 3059 compressed objects within 31 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 1855 words of extra memory for PDF output out of 10000 (max. 10000000)
+

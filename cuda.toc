@@ -1,6 +1,6 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Historique}{3}{0}{1}
-\beamer@sectionintoc {2}{Architecture matérielles des GPUs}{11}{0}{2}
-\beamer@sectionintoc {3}{Programmation}{18}{0}{3}
-\beamer@sectionintoc {4}{Synchronisation et parallélisme dynamique}{35}{0}{4}
-\beamer@sectionintoc {5}{Mémoire unifiée}{44}{0}{5}
+\beamer@sectionintoc {2}{Architecture matérielle des GPUs}{11}{0}{2}
+\beamer@sectionintoc {3}{Programmation}{20}{0}{3}
+\beamer@sectionintoc {4}{Synchronisation et parallélisme dynamique}{37}{0}{4}
+\beamer@sectionintoc {5}{Mémoire unifiée}{46}{0}{5}
