@@ -1,19 +1,9 @@
-\frametitle{Mémoire unifiée}
-\begin{block}{Programme principal}
-   \begin{tabular}{cc}
-        \begin{minipage}{0.45\textwidth}
- \begin{figure}[htbp]
-    \centering
-   \includegraphics[width=\textwidth]{managed_launch.png}
-    \caption{Allocation sur CPU.}
-    \label{fig:managed_launch}
-\end{figure}
-        \end{minipage} &
-        \begin{minipage}{0.45\textwidth}
-            \begin{itemize}
-                \item<+-> L'utilisation de la mémoire unifiée permet de se dispenser d'opérations de copie.
-                \item<+-> Le décorateur \texttt{\_\_managed\_\_} déclare la variable sur le CPU et le GPU.
-           \end{itemize}
-        \end{minipage}
-\end{tabular}
+\frametitle{Flux de synchronisation}
+\begin{block}{Grilles de calcul asynchrones}
+    \begin{itemize}
+        \item<+-> Le dernier paramètre lors du lancement d'une grille de calcul est un flux d'exécution.
+        \item<+-> Pour exécuter un noyau \texttt{kernel} dans le flux \texttt{stream} on écrira:
+        \texttt{kernel<<<grid,block,dynSharedSize,stream>>>(args)}.
+        \item<+-> Les opérations d'un flux se synchronisent sur le flux par défaut, qui est utilisé lorsque le paramètre correspondant est absent. Ce comportement peut toutefois être changé.
+    \end{itemize}
 \end{block}
