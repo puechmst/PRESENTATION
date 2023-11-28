@@ -23,7 +23,7 @@
    \begin{itemize}
     \item<+->À l'intérieur d'un multiprocesseur, les processus s'exécutent de façon concurrente, mais peuvent communiquer
     via la mémoire locale ou être synchronisés.
-    \item<+->Les processus sont répartis en groupes, appelés "warps" (chaînes), qui se voient affecter le même séquenceur 
+    \item<+->Les processus sont répartis en groupes, appelés {\b"warps"} en CUDA (chaînes), qui se voient affecter le même séquenceur 
     d'instructions.
     \item<+->Le modèle associé est dit "SIMT" pour "Single Instruction Multiple Thread".
    \end{itemize} 
@@ -37,9 +37,9 @@
     \item<+-> Le nombre d'unités de calcul par multiprocesseur dépend des générations de cartes. Pour l'architecture 
     Ampère, on trouve 64 ou 128 unités flottantes 32 bits, 32 ou 64 unités flottantes 64 bits, 64 unités de calcul entier
     sur 32 bits, 16 unités spéciales (fonctions transcendantes), 4 cœurs de calcul tensoriel et 4 ordonnanceurs.
-    \item<+-> Un ordonnanceur est affecté à une chaîne. Tous les processus de la chaîne exécutent la même instruction
+    \item<+-> Un {\b ordonnanceur} est affecté à une chaîne. Tous les processus de la chaîne exécutent la même instruction
     au même moment.
-    \item<+-> En cas de branchement, il peut y avoir divergence de code à l'intérieur d'une chaîne, ce qui se traduit par la 
+    \item<+-> En cas de branchement, il peut y avoir {\b divergence de code} à l'intérieur d'une chaîne, ce qui se traduit par la 
     mise en attente d'un ou plusieurs processus dont l'exécution se poursuivra après celle de la branche principale. 
    \end{itemize} 
 \end{block}
@@ -49,7 +49,7 @@
     \frametitle{Architecture matérielle}
 \begin{block}{L'ordonnancement des processus}
    \begin{itemize}
-    \item<+-> Le code à exécuter sur le GPU est appelé noyau ("kernel".)
+    \item<+-> Le code à exécuter sur le GPU est appelé noyau appelé {\b"kernel"} en CUDA.
     \item<+-> Le programmeur décide du nombre de processus affectés à un même noyau et les répartit en blocs.
     \item<+-> Un bloc sera pris en charge par un multiprocesseur libre.
     \item<+-> Dans un bloc, des chaînes de 32 processus identifiés par des entiers consécutifs sont constituées. 
@@ -65,7 +65,7 @@
 \begin{block}{L'ordonnancement des processus}
     \begin{figure}[htbp]
         \centering
-         \includegraphics[scale=0.3]{ProgrammingModel.jpg} 
+         \includegraphics[scale=0.28]{ProgrammingModel.jpg} 
         \caption{Modèle de programmation.}
         \label{fig:programmingModel}
     \end{figure}
